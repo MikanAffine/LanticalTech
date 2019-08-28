@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "lanticaltech:blocks/oresalt",
+    "up": "lanticaltech:blocks/oresalt",
+    "north": "lanticaltech:blocks/oresalt",
+    "east": "lanticaltech:blocks/oresalt",
+    "south": "lanticaltech:blocks/oresalt",
+    "west": "lanticaltech:blocks/oresalt",
+    "particle": "lanticaltech:blocks/oresalt"
+  }
+}

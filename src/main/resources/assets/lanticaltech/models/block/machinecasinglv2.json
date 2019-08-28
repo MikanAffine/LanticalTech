@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "lanticaltech:blocks/machinecasinglv2",
+    "up": "lanticaltech:blocks/machinecasinglv2",
+    "north": "lanticaltech:blocks/machinecasinglv2",
+    "east": "lanticaltech:blocks/machinecasinglv2",
+    "south": "lanticaltech:blocks/machinecasinglv2",
+    "west": "lanticaltech:blocks/machinecasinglv2",
+    "particle": "lanticaltech:blocks/machinecasinglv2"
+  }
+}

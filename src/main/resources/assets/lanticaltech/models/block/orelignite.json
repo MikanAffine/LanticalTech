@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "lanticaltech:blocks/orelignite",
+    "up": "lanticaltech:blocks/orelignite",
+    "north": "lanticaltech:blocks/orelignite",
+    "east": "lanticaltech:blocks/orelignite",
+    "south": "lanticaltech:blocks/orelignite",
+    "west": "lanticaltech:blocks/orelignite",
+    "particle": "lanticaltech:blocks/orelignite"
+  }
+}
