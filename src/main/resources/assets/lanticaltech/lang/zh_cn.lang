@@ -1,1 +1,36 @@
+#Ingots
 item.ingotSteel.name=钢锭
+item.ingotTin.name=锡锭
+item.ingotCopper.name=铜锭
+item.ingotBronze.name=青铜锭
+item.ingotLead.name=铅锭
+item.ingotAluminium.name=铝锭
+
+#Plates
+item.plateSteel.name=钢板
+item.plateTin.name=锡板
+item.plateCopper.name=铜板
+item.plateBronze.name=青铜板
+item.plateLead.name=铅板
+item.plateAluminium.name=铝板
+item.plateIron.name=铁板
+
+#Ores
+tile.oreCopper.name=黄铜矿
+tile.oreTin.name=锡石
+tile.oreLead.name=方铅矿
+tile.oreBauxite.name=铝土矿
+tile.oreCyrolite.name=冰晶石
+tile.oreSalt.name=盐矿
+tile.oreAnthracite.name=无烟煤矿
+tile.oreLignite.name=褐煤矿
+tile.orePeat.name=一大堆泥炭
+
+#Machines
+tile.machineCasingLv1.name=一级机器外壳
+tile.machineCasingLv2.name=§e二级机器外壳
+tile.machineCasingLv3.name=§b三级机器外壳
+
+#CreativeTabs
+itemGroup.tabItems=物品 | LanticalTech
+itemGroup.tabBlocks=方块 | LanticalTech

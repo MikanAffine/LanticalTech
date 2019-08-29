@@ -1,6 +1,7 @@
 package com.github.nyasroryo.lanticaltech;
 
 import com.github.nyasroryo.lanticaltech.common.CommonProxy;
+import com.github.nyasroryo.lanticaltech.client.ClientProxy;
 
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
@@ -20,7 +21,7 @@ public class LanticalTech
 {
     public static final String MODID = "lanticaltech";
     public static final String NAME = "LanticalTech";
-    public static final String VERSION = "Beta 1.0.2 b59";
+    public static final String VERSION = "Beta 1.1.0 build 107";
     public static final String MCVERSION = "1.12.2";
 
     @Instance(MODID)

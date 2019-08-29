@@ -1,7 +1,7 @@
 package com.github.nyasroryo.lanticaltech.client;
 
+import com.github.nyasroryo.lanticaltech.api.*;
 import com.github.nyasroryo.lanticaltech.common.CommonProxy;
-import com.github.nyasroryo.lanticaltech.item.*;
 
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
@@ -14,6 +14,7 @@ public class ClientProxy extends CommonProxy
     public void preInit(FMLPreInitializationEvent event)
     {
         super.preInit(event);
+        BlockLoader.SetBlockModel();
         ItemLoader.SetItemModel();
     }
 

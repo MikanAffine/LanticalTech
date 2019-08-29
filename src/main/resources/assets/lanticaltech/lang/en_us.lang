@@ -1,9 +1,12 @@
+#Ingots
 item.ingotSteel.name=Steel Ingot
 item.ingotTin.name=Tin Ingot
 item.ingotCopper.name=Copper Ingot
 item.ingotBronze.name=Bronze Ingot
 item.ingotLead.name=Lead Ingot
 item.ingotAluminium.name=Aluminium Ingot
+
+#Plates
 item.plateSteel.name=Steel Plate
 item.plateTin.name=Tin Plate
 item.plateCopper.name=Copper Plate
@@ -11,10 +14,23 @@ item.plateBronze.name=Bronze Plate
 item.plateLead.name=Lead Plate
 item.plateAluminium.name=Aluminium Plate
 item.plateIron.name=Iron Plate
-item.ingotSteel.name=Steel Ingot
-item.ingotSteel.name=Steel Ingot
-item.ingotSteel.name=Steel Ingot
-item.ingotSteel.name=Steel Ingot
-item.ingotSteel.name=Steel Ingot
-item.ingotSteel.name=Steel Ingot
-item.ingotSteel.name=Steel Ingot
+
+#Ores
+tile.oreCopper.name=Chalcopyrite
+tile.oreTin.name=Cassiterite
+tile.oreLead.name=Galena
+tile.oreBauxite.name=Bauxite Ore
+tile.oreCyrolite.name=Cyrolite Ore
+tile.oreSalt.name=Salt Ore
+tile.oreAnthracite.name=Anthracite Ore
+tile.oreLignite.name=Lignite Ore
+tile.orePeat.name=A big piece of Peat
+
+#Machines
+tile.machineCasingLv1.name=Machine Casing Lv1
+tile.machineCasingLv2.name=§eMachine Casing Lv2
+tile.machineCasingLv3.name=§bMachine Casing Lv3
+
+#CreativeTabs
+itemGroup.tabItems=Items | LanticalTech
+itemGroup.tabBlocks=Blocks | LanticalTech
