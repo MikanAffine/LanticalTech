@@ -15,6 +15,17 @@ item.plateLead.name=Lead Plate
 item.plateAluminium.name=Aluminium Plate
 item.plateIron.name=Iron Plate
 
+#Dust (maybe 'powder' is better...)
+item.dustSteel.name=Steel Dust
+item.dustTin.name=Tin Dust
+item.dustCopper.name=Copper Dust
+item.dustBronze.name=Bronze Dust
+item.dustLead.name=Lead Dust
+item.dustAluminium.name=Aluminium Dust
+item.dustIron.name=Iron Dust
+item.dustBauxite.name=A piece of Bauxite
+item.dustSalt.name=Salt
+
 #Ores
 tile.oreCopper.name=Chalcopyrite
 tile.oreTin.name=Cassiterite
@@ -25,6 +36,12 @@ tile.oreSalt.name=Salt Ore
 tile.oreAnthracite.name=Anthracite Ore
 tile.oreLignite.name=Lignite Ore
 tile.orePeat.name=A big piece of Peat
+
+#Fuels
+item.fuelAnthracite.name=Anthracite
+item.fuelLignite.name=Lignite
+item.fuelPeat.name=Peat
+item.fuelCoke.name=Coke
 
 #Machines
 tile.machineCasingLv1.name=Machine Casing Lv1

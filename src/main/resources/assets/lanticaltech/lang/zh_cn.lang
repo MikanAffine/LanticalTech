@@ -1,4 +1,4 @@
-#Ingots
+#锭
 item.ingotSteel.name=钢锭
 item.ingotTin.name=锡锭
 item.ingotCopper.name=铜锭
@@ -6,7 +6,7 @@ item.ingotBronze.name=青铜锭
 item.ingotLead.name=铅锭
 item.ingotAluminium.name=铝锭
 
-#Plates
+#板
 item.plateSteel.name=钢板
 item.plateTin.name=锡板
 item.plateCopper.name=铜板
@@ -15,9 +15,20 @@ item.plateLead.name=铅板
 item.plateAluminium.name=铝板
 item.plateIron.name=铁板
 
-#Ores
+#粉
+item.dustSteel.name=钢粉
+item.dustTin.name=锡粉
+item.dustCopper.name=铜粉
+item.dustBronze.name=青铜粉
+item.dustLead.name=铅粉
+item.dustAluminium.name=铝粉
+item.dustIron.name=铁粉
+item.dustBauxite.name=一小块铝土矿
+item.dustSalt.name=盐
+
+#矿石
 tile.oreCopper.name=黄铜矿
-tile.oreTin.name=锡石
+tile.oreTin.name=锡石矿
 tile.oreLead.name=方铅矿
 tile.oreBauxite.name=铝土矿
 tile.oreCyrolite.name=冰晶石
@@ -26,11 +37,17 @@ tile.oreAnthracite.name=无烟煤矿
 tile.oreLignite.name=褐煤矿
 tile.orePeat.name=一大堆泥炭
 
-#Machines
+#机器
 tile.machineCasingLv1.name=一级机器外壳
 tile.machineCasingLv2.name=§e二级机器外壳
 tile.machineCasingLv3.name=§b三级机器外壳
 
-#CreativeTabs
+#燃料
+item.fuelAnthracite.name=无烟煤
+item.fuelLignite.name=褐煤
+item.fuelPeat.name=泥炭
+item.fuelCoke.name=焦炭
+
+#创造模式物品栏
 itemGroup.tabItems=物品 | LanticalTech
 itemGroup.tabBlocks=方块 | LanticalTech

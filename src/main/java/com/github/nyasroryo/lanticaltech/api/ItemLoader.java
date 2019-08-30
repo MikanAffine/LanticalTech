@@ -10,18 +10,18 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 
 public class ItemLoader extends ItemList {
 
-    public static void ItemReg(FMLPreInitializationEvent event) {
-        for (net.minecraft.item.Item item : ItemObject) {
-            ForgeRegistries.ITEMS.register(item);
-        }
+  public static void ItemReg(FMLPreInitializationEvent event) {
+    for (net.minecraft.item.Item item : ItemObject) {
+      ForgeRegistries.ITEMS.register(item);
     }
+  }
 
 
-    @SideOnly(Side.CLIENT)
-    public static void SetItemModel() {
-        int number;
-        for (number = 0; number < ItemObject.length; number++) {
-            ModelLoader.setCustomModelResourceLocation(ItemObject[number], 0, new ModelResourceLocation(ItemObject[number].getRegistryName(), "inventory"));
-        }
+  @SideOnly(Side.CLIENT)
+  public static void SetItemModel() {
+    int number;
+    for (number = 0; number < ItemObject.length; number++) {
+      ModelLoader.setCustomModelResourceLocation(ItemObject[number], 0, new ModelResourceLocation(ItemObject[number].getRegistryName(), "inventory"));
     }
+  }
 }

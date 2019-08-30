@@ -1,15 +1,15 @@
 package com.github.nyasroryo.lanticaltech.common.item.ingot;
 
-import com.github.nyasroryo.lanticaltech.common.item.ItemBase;
+import com.github.nyasroryo.lanticaltech.template.ItemBase;
 import net.minecraft.item.Item;
 
 public class IngotBronze extends ItemBase {
 
-    public static final String MyName = "ingotBronze";
+  public static final String MyName = "ingotBronze";
 
-    public IngotBronze() {
-        super(MyName);
-    }
+  public IngotBronze() {
+    super(MyName);
+  }
 
-    public static final Item ME = new IngotBronze();
+  public static final Item ME = new IngotBronze();
 }

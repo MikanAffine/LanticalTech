@@ -1,16 +1,16 @@
 package com.github.nyasroryo.lanticaltech.common.item.plate;
 
-import com.github.nyasroryo.lanticaltech.common.item.ItemBase;
+import com.github.nyasroryo.lanticaltech.template.ItemBase;
 import net.minecraft.item.Item;
 
 public class PlateSteel extends ItemBase {
 
-    public static final String MyName = "plateSteel";
+  public static final String MyName = "plateSteel";
 
-    public PlateSteel() {
-        super(MyName);
-    }
+  public PlateSteel() {
+    super(MyName);
+  }
 
 
-    public static final Item ME = new PlateSteel();
+  public static final Item ME = new PlateSteel();
 }

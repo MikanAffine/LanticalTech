@@ -1,15 +1,15 @@
 package com.github.nyasroryo.lanticaltech.common.item.ingot;
 
-import com.github.nyasroryo.lanticaltech.common.item.ItemBase;
+import com.github.nyasroryo.lanticaltech.template.ItemBase;
 import net.minecraft.item.Item;
 
 public class IngotAluminium extends ItemBase {
 
-    public static final String MyName = "ingotAluminium";
+  public static final String MyName = "ingotAluminium";
 
-    public IngotAluminium() {
-        super(MyName);
-    }
+  public IngotAluminium() {
+    super(MyName);
+  }
 
-    public static final Item ME = new IngotAluminium();
+  public static final Item ME = new IngotAluminium();
 }
