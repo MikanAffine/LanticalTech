@@ -11,6 +11,7 @@
 支持的Minecraft版本: 1.12.2
 
 [下载Jar](https://raw.githubusercontent.com/NyasRoryo/LanticalTech/master/LanticalTech-lastest.jar)
+
 [下载源码 (.zip格式)](https://raw.githubusercontent.com/NyasRoryo/LanticalTech/master/src.zip)
 
 -------------------------------------------------------------------
@@ -26,4 +27,5 @@ Lastest Version: **Beta** 1.2.5 build 9*
 Support minecraft version: 1.12.2
 
 [Download jar](https://raw.githubusercontent.com/NyasRoryo/LanticalTech/master/LanticalTech-lastest.jar)
+
 [Source code(.zip)](https://raw.githubusercontent.com/NyasRoryo/LanticalTech/master/src.zip)
