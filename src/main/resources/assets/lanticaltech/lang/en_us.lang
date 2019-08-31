@@ -43,6 +43,9 @@ item.fuelLignite.name=Lignite
 item.fuelPeat.name=Peat
 item.fuelCoke.name=Coke
 
+#Gems
+item.gemCyrolite.name=Cyrolite
+
 #Machines
 tile.machineCasingLv1.name=Machine Casing Lv1
 tile.machineCasingLv2.name=§eMachine Casing Lv2

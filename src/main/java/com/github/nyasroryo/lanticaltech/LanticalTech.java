@@ -17,7 +17,7 @@ import org.apache.logging.log4j.Logger;
 public class LanticalTech {
   public static final String MODID = "lanticaltech";
   public static final String NAME = "LanticalTech";
-  public static final String VERSION = "Beta 1.2.4 build 13";
+  public static final String VERSION = "Beta 1.2.5 build 9";
   public static final String MCVERSION = "1.12.2";
 
   @Instance(MODID)

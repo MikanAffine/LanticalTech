@@ -48,6 +48,9 @@ item.fuelLignite.name=褐煤
 item.fuelPeat.name=泥炭
 item.fuelCoke.name=焦炭
 
+#宝石 (包括结晶)
+item.gemCyrolite.name=冰晶石
+
 #创造模式物品栏
 itemGroup.tabItems=物品 | LanticalTech
 itemGroup.tabBlocks=方块 | LanticalTech

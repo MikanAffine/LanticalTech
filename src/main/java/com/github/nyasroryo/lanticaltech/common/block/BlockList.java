@@ -9,7 +9,7 @@ import net.minecraft.item.Item;
 
 public abstract class BlockList {
 
-  public static final Block[] BlockObject = {
+  public static final Block[][] BlockObject = {{
       OreCopper.ME,
       OreTin.ME,
       OreLead.ME,
@@ -18,13 +18,14 @@ public abstract class BlockList {
       OreSalt.ME,
       OreAnthracite.ME,
       OreLignite.ME,
-      OrePeat.ME,
+      OrePeat.ME
+  }, {
       MachineCasingLv1.ME,
       MachineCasingLv2.ME,
       MachineCasingLv3.ME
-  };
+  }};
 
-  public static final Item[] ItemBlockObject = {
+  public static final Item[][] ItemBlockObject = {{
       OreCopper.BROTHER,
       OreTin.BROTHER,
       OreLead.BROTHER,
@@ -34,8 +35,9 @@ public abstract class BlockList {
       OreAnthracite.BROTHER,
       OreLignite.BROTHER,
       OrePeat.BROTHER,
+  },{
       MachineCasingLv1.BROTHER,
       MachineCasingLv2.BROTHER,
       MachineCasingLv3.BROTHER
-  };
+  }};
 }
