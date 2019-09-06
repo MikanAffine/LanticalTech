@@ -4,10 +4,9 @@
 #### 希望各位能帮我修改，我会接受大部分PR和Issues，感谢！
 **汉化文件就不用了(滑稽)，但如果有德语、法语之类的.lang文件(请务必有人翻部分，机翻不会接受)，请发起PR，谢谢!**
 
-*正在尝试节假日每天5更*
-*疯狂整理代码水commit中*
+*准备开始进行高强度开发了*
 
-最新版本 **Beta** 1.2.5 build 9*
+最新版本 **Beta** 1.2.5 build 114*
 
 支持的Minecraft版本: 1.12.2
 
@@ -23,7 +22,7 @@
 **Author is Chinese, so I don't need zh_cn.lang, xD**
 **But if you have localization files in French and German, please start PR, THANKS!**
 
-Lastest Version: **Beta** 1.2.5 build 9*
+Lastest Version: **Beta** 1.2.5 build 114*
 
 Support minecraft version: 1.12.2
 
