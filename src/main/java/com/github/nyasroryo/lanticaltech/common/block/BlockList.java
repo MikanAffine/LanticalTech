@@ -1,10 +1,11 @@
 package com.github.nyasroryo.lanticaltech.common.block;
 
-import com.github.nyasroryo.lanticaltech.common.block.machine.MachineCasingLv1;
-import com.github.nyasroryo.lanticaltech.common.block.machine.MachineCasingLv2;
-import com.github.nyasroryo.lanticaltech.common.block.machine.MachineCasingLv3;
+import com.github.nyasroryo.lanticaltech.client.creativetab.CreativeTab;
+import com.github.nyasroryo.lanticaltech.common.block.machine.*;
 import com.github.nyasroryo.lanticaltech.common.block.ore.*;
 import net.minecraft.block.Block;
+import net.minecraft.block.SoundType;
+import net.minecraft.block.material.Material;
 import net.minecraft.item.Item;
 
 public abstract class BlockList {

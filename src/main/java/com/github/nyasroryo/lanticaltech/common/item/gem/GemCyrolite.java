@@ -1,6 +1,6 @@
 package com.github.nyasroryo.lanticaltech.common.item.gem;
 
-import com.github.nyasroryo.lanticaltech.template.ItemBase;
+import com.github.nyasroryo.lanticaltech.common.item.ItemBase;
 import net.minecraft.item.Item;
 
 public class GemCyrolite extends ItemBase {

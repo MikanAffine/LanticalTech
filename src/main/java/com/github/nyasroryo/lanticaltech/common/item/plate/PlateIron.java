@@ -1,6 +1,6 @@
 package com.github.nyasroryo.lanticaltech.common.item.plate;
 
-import com.github.nyasroryo.lanticaltech.template.ItemBase;
+import com.github.nyasroryo.lanticaltech.common.item.ItemBase;
 import net.minecraft.item.Item;
 
 public class PlateIron extends ItemBase {

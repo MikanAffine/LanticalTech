@@ -1,4 +1,4 @@
-package com.github.nyasroryo.lanticaltech.template;
+package com.github.nyasroryo.lanticaltech.common.item;
 
 import com.github.nyasroryo.lanticaltech.client.creativetab.CreativeTab;
 import net.minecraft.item.Item;
