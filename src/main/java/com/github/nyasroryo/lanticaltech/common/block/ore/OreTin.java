@@ -19,9 +19,8 @@ public class OreTin extends BlockBase {
 
   private static final String NAME = "OreTin";
   private static final Object[] DATA = (Object[]) BlockData.blockBaseData.get(NAME);
-  private static final Object[] DATA_SPECIAL_ORE = (Object[]) BlockData.oreSpecial.get(NAME);
-  public static final Block ME = new OreTin();
-  public static final Item BROTHER = new ItemBlock(ME).setRegistryName(NAME);
+  public static final Block THIS_BLOCK = new OreTin();
+  public static final Item THIS_ITEMBLOCK = new ItemBlock(THIS_BLOCK).setRegistryName(NAME);
 
   private OreTin() {
     super(NAME);
@@ -30,18 +29,22 @@ public class OreTin extends BlockBase {
 
   @Override
   public Item getItemDropped(IBlockState state, Random rand, int fortune) {
-    return (Item) DATA_SPECIAL_ORE[0];
+    return THIS_ITEMBLOCK;
   }
 
   @Override
   public int quantityDropped(Random random) {
-    return (int) DATA_SPECIAL_ORE[1];
+    return 1;
+  }
+
+  @Override
+  public int quantityDroppedWithBonus(int fortune, Random random) {
+    return 1;
   }
 
   @Override
   public int getExpDrop(IBlockState state, IBlockAccess world, BlockPos pos, int fortune) {
-    Random random = new Random();
-    return (int) DATA_SPECIAL_ORE[2];
+    return 0;
   }
 
   @Override

@@ -12,5 +12,5 @@ public class PlateTin extends ItemBase {
   }
 
 
-  public static final Item ME = new PlateTin();
+  public static final Item THIS_ITEM = new PlateTin();
 }

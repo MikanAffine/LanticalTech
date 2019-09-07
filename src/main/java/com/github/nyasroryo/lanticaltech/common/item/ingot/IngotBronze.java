@@ -11,5 +11,5 @@ public class IngotBronze extends ItemBase {
     super(MyName);
   }
 
-  public static final Item ME = new IngotBronze();
+  public static final Item THIS_ITEM = new IngotBronze();
 }

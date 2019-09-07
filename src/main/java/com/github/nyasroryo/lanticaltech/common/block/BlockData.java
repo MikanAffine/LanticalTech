@@ -9,11 +9,14 @@ import com.github.nyasroryo.lanticaltech.common.item.ingot.*;
 import com.github.nyasroryo.lanticaltech.common.item.plate.*;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemBlock;
+
 import java.util.HashMap;
 
-//�����˷��������
-//�һ���ʡ�Ե��ı����ӵĴ����١���
-//��֮������װ�˰�!
+//定义了方块的数据
+//我怀疑省略掉的比增加的代码少。。
+//总之算它封装了吧!
 
 public abstract class BlockData {
 
@@ -149,6 +152,9 @@ public abstract class BlockData {
     }
   };
 
+  //只在掉落非自身的矿石中起效
+  //原因：当调用掉落自身的矿石的 THIS_ITEMBLOCK 时，他还没有初始化。。。
+  //真的是个神奇bug
   public static final HashMap oreSpecial= new HashMap() {
     {
       /*
@@ -159,7 +165,7 @@ public abstract class BlockData {
           DropAmount,
           DropExp,
 
-          TODO ��
+          TODO ↓
           GenHeightMax,
           GenHeightMin,
           GenFrequency,
@@ -169,48 +175,33 @@ public abstract class BlockData {
       */
 
       //Ores
-      put("OreCopper",new Object[] {
-          OreCopper.BROTHER,
-          1,
-          0
-      });
-      put("OreTin",new Object[] {
-          OreCopper.BROTHER,
-          1,
-          0
-      });
-      put("OreLead",new Object[] {
-          OreCopper.BROTHER,
-          1,
-          0
-      });
       put("OreBauxite",new Object[] {
-          DustBauxite.ME,
+          DustBauxite.THIS_ITEM,
           1,
           0
       });
       put("OreCyrolite",new Object[] {
-          GemCyrolite.ME,
+          GemCyrolite.THIS_ITEM,
           1,
           9
       });
       put("OreSalt",new Object[] {
-          DustSalt.ME,
+          DustSalt.THIS_ITEM,
           1,
           2
       });
       put("OreAnthracite",new Object[] {
-          FuelAnthracite.ME,
+          FuelAnthracite.THIS_ITEM,
           1,
           6
       });
       put("OreLignite",new Object[] {
-          FuelLignite.ME,
+          FuelLignite.THIS_ITEM,
           1,
           3
       });
       put("OrePeat",new Object[] {
-          FuelPeat.ME,
+          FuelPeat.THIS_ITEM,
           1,
           1
       });

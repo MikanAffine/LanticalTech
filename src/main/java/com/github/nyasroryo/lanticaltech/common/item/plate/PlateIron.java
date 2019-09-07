@@ -12,5 +12,5 @@ public class PlateIron extends ItemBase {
   }
 
 
-  public static final Item ME = new PlateIron();
+  public static final Item THIS_ITEM = new PlateIron();
 }

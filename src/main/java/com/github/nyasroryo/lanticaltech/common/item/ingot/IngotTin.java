@@ -11,5 +11,5 @@ public class IngotTin extends ItemBase {
     super(MyName);
   }
 
-  public static final Item ME = new IngotTin();
+  public static final Item THIS_ITEM = new IngotTin();
 }

@@ -11,5 +11,5 @@ public class FuelCoke extends ItemBase {
     super(MyName);
   }
 
-  public static final Item ME = new FuelCoke();
+  public static final Item THIS_ITEM = new FuelCoke();
 }

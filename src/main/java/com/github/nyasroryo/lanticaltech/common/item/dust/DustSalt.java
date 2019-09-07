@@ -11,5 +11,5 @@ public class DustSalt extends ItemBase {
     super(MyName);
   }
 
-  public static final Item ME = new DustSalt();
+  public static final Item THIS_ITEM = new DustSalt();
 }

@@ -9,14 +9,14 @@ public class CreativeTab {
   public static final CreativeTabs TAB_ITEMS = new CreativeTabs("tabItems") {
     @Override
     public ItemStack createIcon() {
-      return new ItemStack(IngotSteel.ME);
+      return new ItemStack(IngotSteel.THIS_ITEM);
     }
   };
 
   public static final CreativeTabs TAB_BLOCKS = new CreativeTabs("tabBlocks") {
     @Override
     public ItemStack createIcon() {
-      return new ItemStack(MachineCasingLv1.ME);
+      return new ItemStack(MachineCasingLv1.THIS_BLOCK);
     }
   };
 

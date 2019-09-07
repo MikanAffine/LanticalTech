@@ -11,5 +11,5 @@ public class PlateAluminium extends ItemBase {
     super(MyName);
   }
 
-  public static final Item ME = new PlateAluminium();
+  public static final Item THIS_ITEM = new PlateAluminium();
 }

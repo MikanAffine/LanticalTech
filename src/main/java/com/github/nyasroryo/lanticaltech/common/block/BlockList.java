@@ -1,44 +1,48 @@
 package com.github.nyasroryo.lanticaltech.common.block;
 
-import com.github.nyasroryo.lanticaltech.client.creativetab.CreativeTab;
 import com.github.nyasroryo.lanticaltech.common.block.machine.*;
 import com.github.nyasroryo.lanticaltech.common.block.ore.*;
 import net.minecraft.block.Block;
-import net.minecraft.block.SoundType;
-import net.minecraft.block.material.Material;
 import net.minecraft.item.Item;
 
 public abstract class BlockList {
 
-  public static final Block[][] BlockObject = {{
-      OreCopper.ME,
-      OreTin.ME,
-      OreLead.ME,
-      OreBauxite.ME,
-      OreCyrolite.ME,
-      OreSalt.ME,
-      OreAnthracite.ME,
-      OreLignite.ME,
-      OrePeat.ME
-  }, {
-      MachineCasingLv1.ME,
-      MachineCasingLv2.ME,
-      MachineCasingLv3.ME
-  }};
+  public static final Block[] BlockObject = {
+	  
+      //矿石
+	    OreCopper.THIS_BLOCK,
+      OreTin.THIS_BLOCK,
+      OreLead.THIS_BLOCK,
+      OreBauxite.THIS_BLOCK,
+      OreCyrolite.THIS_BLOCK,
+      OreSalt.THIS_BLOCK,
+      OreAnthracite.THIS_BLOCK,
+      OreLignite.THIS_BLOCK,
+      OrePeat.THIS_BLOCK,
+	  
+	  //机器
+      MachineCasingLv1.THIS_BLOCK,
+      MachineCasingLv2.THIS_BLOCK,
+      MachineCasingLv3.THIS_BLOCK
+  };
 
-  public static final Item[][] ItemBlockObject = {{
-      OreCopper.BROTHER,
-      OreTin.BROTHER,
-      OreLead.BROTHER,
-      OreBauxite.BROTHER,
-      OreCyrolite.BROTHER,
-      OreSalt.BROTHER,
-      OreAnthracite.BROTHER,
-      OreLignite.BROTHER,
-      OrePeat.BROTHER,
-  },{
-      MachineCasingLv1.BROTHER,
-      MachineCasingLv2.BROTHER,
-      MachineCasingLv3.BROTHER
-  }};
+  public static final Item[] ItemBlockObject = {
+	  
+	  //矿石
+      OreCopper.THIS_ITEMBLOCK,
+      OreTin.THIS_ITEMBLOCK,
+      OreLead.THIS_ITEMBLOCK,
+      OreBauxite.THIS_ITEMBLOCK,
+      OreCyrolite.THIS_ITEMBLOCK,
+      OreSalt.THIS_ITEMBLOCK,
+      OreAnthracite.THIS_ITEMBLOCK,
+      OreLignite.THIS_ITEMBLOCK,
+      OrePeat.THIS_ITEMBLOCK,
+	  
+	  //机器
+      MachineCasingLv1.THIS_ITEMBLOCK,
+      MachineCasingLv2.THIS_ITEMBLOCK,
+      MachineCasingLv3.THIS_ITEMBLOCK
+  };
+  
 }

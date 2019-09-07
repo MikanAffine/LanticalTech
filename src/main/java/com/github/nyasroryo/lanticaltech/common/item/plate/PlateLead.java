@@ -12,5 +12,5 @@ public class PlateLead extends ItemBase {
   }
 
 
-  public static final Item ME = new PlateLead();
+  public static final Item THIS_ITEM = new PlateLead();
 }

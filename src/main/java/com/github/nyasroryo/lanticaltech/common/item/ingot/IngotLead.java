@@ -11,5 +11,5 @@ public class IngotLead extends ItemBase {
     super(MyName);
   }
 
-  public static final Item ME = new IngotLead();
+  public static final Item THIS_ITEM = new IngotLead();
 }

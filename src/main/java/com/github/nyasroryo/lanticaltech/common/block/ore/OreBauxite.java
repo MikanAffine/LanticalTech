@@ -20,8 +20,8 @@ public class OreBauxite extends BlockBase {
   private static final String NAME = "OreBauxite";
   private static final Object[] DATA = (Object[]) BlockData.blockBaseData.get(NAME);
   private static final Object[] DATA_SPECIAL_ORE = (Object[]) BlockData.oreSpecial.get(NAME);
-  public static final Block ME = new OreBauxite();
-  public static final Item BROTHER = new ItemBlock(ME).setRegistryName(NAME);
+  public static final Block THIS_BLOCK = new OreBauxite();
+  public static final Item THIS_ITEMBLOCK = new ItemBlock(THIS_BLOCK).setRegistryName(NAME);
 
   private OreBauxite() {
     super(NAME);
@@ -40,7 +40,6 @@ public class OreBauxite extends BlockBase {
 
   @Override
   public int getExpDrop(IBlockState state, IBlockAccess world, BlockPos pos, int fortune) {
-    Random random = new Random();
     return (int) DATA_SPECIAL_ORE[2];
   }
 

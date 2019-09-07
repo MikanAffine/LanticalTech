@@ -11,5 +11,5 @@ public class IngotCopper extends ItemBase {
     super(MyName);
   }
 
-  public static final Item ME = new IngotCopper();
+  public static final Item THIS_ITEM = new IngotCopper();
 }

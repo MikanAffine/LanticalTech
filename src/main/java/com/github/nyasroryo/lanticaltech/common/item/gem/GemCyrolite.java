@@ -11,5 +11,5 @@ public class GemCyrolite extends ItemBase {
     super(MyName);
   }
 
-  public static final Item ME = new GemCyrolite();
+  public static final Item THIS_ITEM = new GemCyrolite();
 }

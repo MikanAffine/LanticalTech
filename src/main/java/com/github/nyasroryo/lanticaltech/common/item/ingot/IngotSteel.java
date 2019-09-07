@@ -11,5 +11,5 @@ public class IngotSteel extends ItemBase {
     super(MyName);
   }
 
-  public static final Item ME = new IngotSteel();
+  public static final Item THIS_ITEM = new IngotSteel();
 }

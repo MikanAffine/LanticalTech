@@ -12,5 +12,5 @@ public class PlateCopper extends ItemBase {
   }
 
 
-  public static final Item ME = new PlateCopper();
+  public static final Item THIS_ITEM = new PlateCopper();
 }

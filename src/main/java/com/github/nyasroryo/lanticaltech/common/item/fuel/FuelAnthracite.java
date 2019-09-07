@@ -11,5 +11,5 @@ public class FuelAnthracite extends ItemBase {
     super(MyName);
   }
 
-  public static final Item ME = new FuelAnthracite();
+  public static final Item THIS_ITEM = new FuelAnthracite();
 }
