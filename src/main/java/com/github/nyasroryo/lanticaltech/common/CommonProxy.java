@@ -1,7 +1,7 @@
 package com.github.nyasroryo.lanticaltech.common;
 
-import com.github.nyasroryo.lanticaltech.common.block.BlockLoader;
-import com.github.nyasroryo.lanticaltech.common.item.ItemLoader;
+import com.github.nyasroryo.lanticaltech.loader.BlockLoader;
+import com.github.nyasroryo.lanticaltech.loader.ItemLoader;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;

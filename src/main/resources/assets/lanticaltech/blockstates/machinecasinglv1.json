@@ -1,7 +1,7 @@
 {
   "variants": {
     "normal": {
-      "model": "lanticaltech:machinecasinglv1"
-    }
+	  "model": "lanticaltech:machinecasinglv1" 
+	}
   }
 }

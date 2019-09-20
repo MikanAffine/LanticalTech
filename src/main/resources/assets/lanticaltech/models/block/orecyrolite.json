@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "lanticaltech:blocks/orecyrolite",
-    "up": "lanticaltech:blocks/orecyrolite",
-    "north": "lanticaltech:blocks/orecyrolite",
-    "east": "lanticaltech:blocks/orecyrolite",
-    "south": "lanticaltech:blocks/orecyrolite",
-    "west": "lanticaltech:blocks/orecyrolite",
-    "particle": "lanticaltech:blocks/orecyrolite"
+    "down": "lanticaltech:blocks/ore/orecyrolite",
+    "up": "lanticaltech:blocks/ore/orecyrolite",
+    "north": "lanticaltech:blocks/ore/orecyrolite",
+    "east": "lanticaltech:blocks/ore/orecyrolite",
+    "south": "lanticaltech:blocks/ore/orecyrolite",
+    "west": "lanticaltech:blocks/ore/orecyrolite",
+    "particle": "lanticaltech:blocks/ore/orecyrolite"
   }
 }

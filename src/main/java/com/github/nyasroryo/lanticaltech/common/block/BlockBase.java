@@ -1,6 +1,7 @@
 package com.github.nyasroryo.lanticaltech.common.block;
 
 import com.github.nyasroryo.lanticaltech.client.creativetab.CreativeTab;
+import com.github.nyasroryo.lanticaltech.packedconsts.BlockData;
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
@@ -9,9 +10,9 @@ public abstract class BlockBase extends Block {
 
 
   public BlockBase(String dataKey) {
-    super( (Material)((Object[])BlockData.blockBaseData.get(dataKey))[1]);
+    super( (Material) BlockData.blockBaseData.get(dataKey)[1]);
     /*
-    Array define in BlockData.java:
+    BlockData.java中使用的标准方块数据数组:
      new Object[] {
           Name,
           Material,
@@ -23,12 +24,12 @@ public abstract class BlockBase extends Block {
 
      */
     this
-        .setSoundType((SoundType) ((Object[])BlockData.blockBaseData.get(dataKey))[2])
-        .setHardness((float) ((Object[])BlockData.blockBaseData.get(dataKey))[3])
-        .setResistance((float) ((Object[])BlockData.blockBaseData.get(dataKey))[4])
-        .setHarvestLevel((String) ((Object[])BlockData.blockBaseData.get(dataKey))[5], (int) ((Object[])BlockData.blockBaseData.get(dataKey))[6]);
+        .setSoundType((SoundType) BlockData.blockBaseData.get(dataKey)[2])
+        .setHardness((float) BlockData.blockBaseData.get(dataKey)[3])
+        .setResistance((float) BlockData.blockBaseData.get(dataKey)[4])
+        .setHarvestLevel((String) BlockData.blockBaseData.get(dataKey)[5], (int) BlockData.blockBaseData.get(dataKey)[6]);
     this.setCreativeTab(CreativeTab.TAB_BLOCKS);
-    this.setTranslationKey((String) ((Object[])BlockData.blockBaseData.get(dataKey))[0]);
-    this.setRegistryName((String) ((Object[])BlockData.blockBaseData.get(dataKey))[0]);
+    this.setTranslationKey((String) BlockData.blockBaseData.get(dataKey)[0]);
+    this.setRegistryName(((String) BlockData.blockBaseData.get(dataKey)[0]).toLowerCase());
   }
 }

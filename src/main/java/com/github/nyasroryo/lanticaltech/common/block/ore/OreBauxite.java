@@ -1,7 +1,7 @@
 package com.github.nyasroryo.lanticaltech.common.block.ore;
 
 import com.github.nyasroryo.lanticaltech.common.block.BlockBase;
-import com.github.nyasroryo.lanticaltech.common.block.BlockData;
+import com.github.nyasroryo.lanticaltech.packedconsts.BlockData;
 import net.minecraft.block.Block;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.player.EntityPlayer;
@@ -18,8 +18,8 @@ import java.util.Random;
 public class OreBauxite extends BlockBase {
 
   private static final String NAME = "OreBauxite";
-  private static final Object[] DATA = (Object[]) BlockData.blockBaseData.get(NAME);
-  private static final Object[] DATA_SPECIAL_ORE = (Object[]) BlockData.oreSpecial.get(NAME);
+  private static final Object[] DATA = BlockData.blockBaseData.get(NAME);
+  private static final Object[] DATA_SPECIAL_ORE = BlockData.oreSpecial.get(NAME);
   public static final Block THIS_BLOCK = new OreBauxite();
   public static final Item THIS_ITEMBLOCK = new ItemBlock(THIS_BLOCK).setRegistryName(NAME);
 

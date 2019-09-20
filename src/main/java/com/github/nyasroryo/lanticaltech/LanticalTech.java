@@ -1,6 +1,7 @@
 package com.github.nyasroryo.lanticaltech;
 
 import com.github.nyasroryo.lanticaltech.common.CommonProxy;
+import com.github.nyasroryo.lanticaltech.util.LoggerPlus;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;
@@ -23,31 +24,25 @@ public class LanticalTech {
   @Instance(MODID)
   public static LanticalTech instance;
 
-  private static Logger logger;
-
-  private Logger getLogger() {
-    return logger;
-  }
-
   @SidedProxy(clientSide = "com.github.nyasroryo.lanticaltech.client.ClientProxy", serverSide = "com.github.nyasroryo.lanticaltech.common.CommonProxy")
   public static CommonProxy proxy;
 
   @EventHandler
   public void preInit(FMLPreInitializationEvent event) {
-    logger = event.getModLog();
-    LanticalTech.instance.getLogger().info("LanticalTech will initialization soon.");
+    LoggerPlus.setLogger(event.getModLog());
+    LoggerPlus.logInfo("LanticalTech will initialization soon.");
     proxy.preInit(event);
   }
 
   @EventHandler
   public void init(FMLInitializationEvent event) {
-    LanticalTech.instance.getLogger().info("LanticalTech is in initialization now.");
+    LoggerPlus.logInfo("LanticalTech is in initialization now.");
     proxy.init(event);
   }
 
   @EventHandler
   public void postInit(FMLPostInitializationEvent event) {
-    LanticalTech.instance.getLogger().info("LanticalTech successful initializationed.");
+    LoggerPlus.logInfo("LanticalTech successful initializationed.");
     proxy.postInit(event);
   }
 

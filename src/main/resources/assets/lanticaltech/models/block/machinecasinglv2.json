@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "lanticaltech:blocks/machinecasinglv2",
-    "up": "lanticaltech:blocks/machinecasinglv2",
-    "north": "lanticaltech:blocks/machinecasinglv2",
-    "east": "lanticaltech:blocks/machinecasinglv2",
-    "south": "lanticaltech:blocks/machinecasinglv2",
-    "west": "lanticaltech:blocks/machinecasinglv2",
-    "particle": "lanticaltech:blocks/machinecasinglv2"
+    "down": "lanticaltech:blocks/machine/machinecasinglv2",
+    "up": "lanticaltech:blocks/machine/machinecasinglv2",
+    "north": "lanticaltech:blocks/machine/machinecasinglv2",
+    "east": "lanticaltech:blocks/machine/machinecasinglv2",
+    "south": "lanticaltech:blocks/machine/machinecasinglv2",
+    "west": "lanticaltech:blocks/machine/machinecasinglv2",
+    "particle": "lanticaltech:blocks/machine/machinecasinglv2"
   }
 }

@@ -54,3 +54,8 @@ item.gemCyrolite.name=冰晶石
 #创造模式物品栏
 itemGroup.tabItems=物品 | LanticalTech
 itemGroup.tabBlocks=方块 | LanticalTech
+
+#宝石 (包括结晶)
+item.gemCyrolite.name=冰晶石
+
+#建筑材料
