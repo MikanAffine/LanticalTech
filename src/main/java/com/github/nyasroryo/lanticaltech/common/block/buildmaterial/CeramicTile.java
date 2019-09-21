@@ -1,4 +1,3 @@
-// NOW DISABLED
 package com.github.nyasroryo.lanticaltech.common.block.buildmaterial;
 
 import com.github.nyasroryo.lanticaltech.common.block.BlockBase;
@@ -10,16 +9,17 @@ import net.minecraft.block.state.IBlockState;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.EnumDyeColor;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemBlock;
+import net.minecraft.item.ItemMultiTexture;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.NonNullList;
+import net.minecraft.util.text.translation.I18n;
 
 public class CeramicTile extends BlockBase {
 
   public static final PropertyInteger COLOR = PropertyInteger.create("color", 0, 15);
   private static final String NAME = "CeramicTile";
   public static final Block THIS_BLOCK = new CeramicTile();
-  public static final Item THIS_ITEMBLOCK = new ItemBlock(THIS_BLOCK).setRegistryName(NAME);
+  public static final Item THIS_ITEMBLOCK = new ItemMultiTexture(THIS_BLOCK, THIS_BLOCK, input -> (EnumDyeColor.values()[input.getItemDamage()].getTranslationKey())).setRegistryName(NAME).setHasSubtypes(true);
 
   public CeramicTile() {
     super(NAME);
@@ -49,14 +49,8 @@ public class CeramicTile extends BlockBase {
     return getMetaFromState(state);
   }
 
-  @Override
-  public String getTranslationKey() {
-
-    int meta = new ItemStack(this).getItemDamage();
-    if (meta >= 15) {
-      return "tile.ceramicTile.white.name";
-    }
-    return "tile.ceramicTile." + EnumDyeColor.values()[meta].getName() + ".name";
+  public String getLocalizedName() {
+    return I18n.translateToLocal(this.getTranslationKey() + "." + EnumDyeColor.WHITE.getTranslationKey() + ".name");
   }
 
   @Override

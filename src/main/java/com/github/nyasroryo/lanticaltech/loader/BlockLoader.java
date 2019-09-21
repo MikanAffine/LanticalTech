@@ -1,6 +1,6 @@
 package com.github.nyasroryo.lanticaltech.loader;
 
-import com.github.nyasroryo.lanticaltech.common.block.buildmaterial.*;
+import com.github.nyasroryo.lanticaltech.common.block.buildmaterial.CeramicTile;
 import com.github.nyasroryo.lanticaltech.packedconsts.BlockList;
 import net.minecraft.block.Block;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
@@ -31,6 +31,5 @@ public class BlockLoader extends BlockList {
       ModelLoader.setCustomModelResourceLocation(CeramicTile.THIS_ITEMBLOCK, i, new ModelResourceLocation("ceramictile","inventory"));
     }
   }
-
 
 }

@@ -59,3 +59,19 @@ itemGroup.tabBlocks=方块 | LanticalTech
 item.gemCyrolite.name=冰晶石
 
 #建筑材料
+tile.ceramicTile.white.name=白色瓷砖
+tile.ceramicTile.black.name=黑色瓷砖
+tile.ceramicTile.red.name=红色瓷砖
+tile.ceramicTile.green.name=绿色瓷砖
+tile.ceramicTile.blue.name=蓝色瓷砖
+tile.ceramicTile.yellow.name=黄色瓷砖
+tile.ceramicTile.gray.name=灰色瓷砖
+tile.ceramicTile.pink.name=粉色瓷砖
+tile.ceramicTile.magenta.name=品红色瓷砖
+tile.ceramicTile.purple.name=紫色瓷砖
+tile.ceramicTile.silver.name=浅灰色瓷砖
+tile.ceramicTile.orange.name=橘色瓷砖
+tile.ceramicTile.lightblue.name=淡蓝色瓷砖
+tile.ceramicTile.lime.name=黄绿色瓷砖
+tile.ceramicTile.cyan.name=青色瓷砖
+tile.ceramicTile.brown.name=棕色瓷砖
