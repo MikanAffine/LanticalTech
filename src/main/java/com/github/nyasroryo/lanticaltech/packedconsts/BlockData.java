@@ -1,8 +1,8 @@
 package com.github.nyasroryo.lanticaltech.packedconsts;
 
-import com.github.nyasroryo.lanticaltech.common.item.dust.*;
-import com.github.nyasroryo.lanticaltech.common.item.fuel.*;
-import com.github.nyasroryo.lanticaltech.common.item.gem.*;
+import com.github.nyasroryo.lanticaltech.common.item.Dust;
+import com.github.nyasroryo.lanticaltech.common.item.Fuel;
+import com.github.nyasroryo.lanticaltech.common.item.Gem;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 
@@ -179,32 +179,32 @@ public abstract class BlockData {
 
       //Ores
       put("OreBauxite", new Object[]{
-          DustBauxite.THIS_ITEM,
+          Dust.THIS_ITEM,
           1,
           0
       });
       put("OreCyrolite", new Object[]{
-          GemCyrolite.THIS_ITEM,
+          Gem.THIS_ITEM,
           1,
           9
       });
       put("OreSalt", new Object[]{
-          DustSalt.THIS_ITEM,
+          Dust.THIS_ITEM,
           1,
           2
       });
       put("OreAnthracite", new Object[]{
-          FuelAnthracite.THIS_ITEM,
+          Fuel.THIS_ITEM,
           1,
           6
       });
       put("OreLignite", new Object[]{
-          FuelLignite.THIS_ITEM,
+          Fuel.THIS_ITEM,
           1,
           3
       });
       put("OrePeat", new Object[]{
-          FuelPeat.THIS_ITEM,
+          Fuel.THIS_ITEM,
           1,
           1
       });

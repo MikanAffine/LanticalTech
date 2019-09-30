@@ -1,30 +1,32 @@
 #Ingots
-item.ingotSteel.name=Steel Ingot
-item.ingotTin.name=Tin Ingot
-item.ingotCopper.name=Copper Ingot
-item.ingotBronze.name=Bronze Ingot
-item.ingotLead.name=Lead Ingot
-item.ingotAluminium.name=Aluminium Ingot
+item.ingot.steel.name=Steel Ingot
+item.ingot.tin.name=Tin Ingot
+item.ingot.copper.name=Copper Ingot
+item.ingot.bronze.name=Bronze Ingot
+item.ingot.lead.name=Lead Ingot
+item.ingot.aluminium.name=Aluminium Ingot
 
 #Plates
-item.plateSteel.name=Steel Plate
-item.plateTin.name=Tin Plate
-item.plateCopper.name=Copper Plate
-item.plateBronze.name=Bronze Plate
-item.plateLead.name=Lead Plate
-item.plateAluminium.name=Aluminium Plate
-item.plateIron.name=Iron Plate
+item.plate.steel.name=Steel Plate
+item.plate.tin.name=Tin Plate
+item.plate.copper.name=Copper Plate
+item.plate.bronze.name=Bronze Plate
+item.plate.lead.name=Lead Plate
+item.plate.aluminium.name=Aluminium Plate
+item.plate.iron.name=Iron Plate
 
 #Dust (maybe 'powder' is better...)
-item.dustSteel.name=Steel Dust
-item.dustTin.name=Tin Dust
-item.dustCopper.name=Copper Dust
-item.dustBronze.name=Bronze Dust
-item.dustLead.name=Lead Dust
-item.dustAluminium.name=Aluminium Dust
-item.dustIron.name=Iron Dust
-item.dustBauxite.name=A piece of Bauxite
-item.dustSalt.name=Salt
+item.dust.steel.name=Steel Powder
+item.dust.tin.name=Tin Powder
+item.dust.copper.name=Copper Powder
+item.dust.bronze.name=Bronze Powder
+item.dust.lead.name=Lead Powder
+item.dust.aluminium.name=Aluminium Powder
+item.dust.iron.name=Iron Powder
+item.dust.gold.name=Gold Powder
+item.dust.coal.name=Coal Powder
+item.dust.bauxite.name=A piece of Bauxite
+item.dust.salt.name=Salt
 
 #Ores
 tile.oreCopper.name=Chalcopyrite
@@ -38,19 +40,37 @@ tile.oreLignite.name=Lignite Ore
 tile.orePeat.name=A big piece of Peat
 
 #Fuels
-item.fuelAnthracite.name=Anthracite
-item.fuelLignite.name=Lignite
-item.fuelPeat.name=Peat
-item.fuelCoke.name=Coke
+item.fuel.anthracite.name=Anthracite
+item.fuel.lignite.name=Lignite
+item.fuel.peat.name=Peat
+item.fuel.coke.name=Coke
 
 #Gems
-item.gemCyrolite.name=Cyrolite
+item.gem.cyrolite.name=Cyrolite
 
 #Machines
 tile.machineCasingLv1.name=Machine Casing Lv1
 tile.machineCasingLv2.name=§eMachine Casing Lv2
 tile.machineCasingLv3.name=§bMachine Casing Lv3
 
-#CreativeTabs
+#Creative Tabs
 itemGroup.tabItems=Items | LanticalTech
 itemGroup.tabBlocks=Blocks | LanticalTech
+
+#Build Materials
+tile.ceramicTile.white.name=White Ceramic Tile Block
+tile.ceramicTile.black.name=Black Ceramic Tile Block
+tile.ceramicTile.red.name=Red Ceramic Tile Block
+tile.ceramicTile.green.name=Green Ceramic Tile Block
+tile.ceramicTile.blue.name=Blue Ceramic Tile Block
+tile.ceramicTile.yellow.name=Yellow Ceramic Tile Block
+tile.ceramicTile.gray.name=Gray Ceramic Tile Block
+tile.ceramicTile.pink.name=Pink Ceramic Tile Block
+tile.ceramicTile.magenta.name=Magenta Ceramic Tile Block
+tile.ceramicTile.purple.name=Purple Ceramic Tile Block
+tile.ceramicTile.lightgray.name=Light Gray Ceramic Tile Block
+tile.ceramicTile.orange.name=Orange Ceramic Tile Block
+tile.ceramicTile.lightblue.name=Light Blue Ceramic Tile Block
+tile.ceramicTile.lime.name=Lime Ceramic Tile Block
+tile.ceramicTile.cyan.name=Cyan Ceramic Tile Block
+tile.ceramicTile.brown.name=Brown Ceramic Tile Block

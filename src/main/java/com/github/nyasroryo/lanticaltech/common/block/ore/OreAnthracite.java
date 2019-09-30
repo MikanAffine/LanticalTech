@@ -34,6 +34,11 @@ public class OreAnthracite extends BlockBase {
   }
 
   @Override
+  public int damageDropped(IBlockState state) {
+    return 0;
+  }
+
+  @Override
   public int quantityDropped(Random random) {
     return (int) DATA_SPECIAL_ORE[1];
   }

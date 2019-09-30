@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "lanticaltech:items/gemcyrolite"
+    "layer0": "lanticaltech:items/gem/cyrolite"
   }
 }

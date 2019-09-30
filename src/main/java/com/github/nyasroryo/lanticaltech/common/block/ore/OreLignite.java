@@ -34,6 +34,11 @@ public class OreLignite extends BlockBase {
   }
 
   @Override
+  public int damageDropped(IBlockState state) {
+    return 1;
+  }
+
+  @Override
   public int quantityDropped(Random random) {
     return (int) DATA_SPECIAL_ORE[1];
   }

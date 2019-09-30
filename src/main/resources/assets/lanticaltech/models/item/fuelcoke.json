@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "lanticaltech:items/fuelcokingcoal"
+    "layer0": "lanticaltech:items/fuel/cokingcoal"
   }
 }

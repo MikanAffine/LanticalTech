@@ -1,30 +1,32 @@
 #锭
-item.ingotSteel.name=钢锭
-item.ingotTin.name=锡锭
-item.ingotCopper.name=铜锭
-item.ingotBronze.name=青铜锭
-item.ingotLead.name=铅锭
-item.ingotAluminium.name=铝锭
+item.ingot.steel.name=钢锭
+item.ingot.tin.name=锡锭
+item.ingot.copper.name=铜锭
+item.ingot.bronze.name=青铜锭
+item.ingot.lead.name=铅锭
+item.ingot.aluminium.name=铝锭
 
 #板
-item.plateSteel.name=钢板
-item.plateTin.name=锡板
-item.plateCopper.name=铜板
-item.plateBronze.name=青铜板
-item.plateLead.name=铅板
-item.plateAluminium.name=铝板
-item.plateIron.name=铁板
+item.plate.steel.name=钢板
+item.plate.tin.name=锡板
+item.plate.copper.name=铜板
+item.plate.bronze.name=青铜板
+item.plate.lead.name=铅板
+item.plate.aluminium.name=铝板
+item.plate.iron.name=铁板
 
 #粉
-item.dustSteel.name=钢粉
-item.dustTin.name=锡粉
-item.dustCopper.name=铜粉
-item.dustBronze.name=青铜粉
-item.dustLead.name=铅粉
-item.dustAluminium.name=铝粉
-item.dustIron.name=铁粉
-item.dustBauxite.name=一小块铝土矿
-item.dustSalt.name=盐
+item.dust.steel.name=钢粉
+item.dust.tin.name=锡粉
+item.dust.copper.name=铜粉
+item.dust.bronze.name=青铜粉
+item.dust.lead.name=铅粉
+item.dust.aluminium.name=铝粉
+item.dust.iron.name=铁粉
+item.dust.gold.name=金粉
+item.dust.coal.name=煤粉
+item.dust.bauxite.name=一小块铝土矿
+item.dust.salt.name=盐
 
 #矿石
 tile.oreCopper.name=黄铜矿
@@ -43,20 +45,17 @@ tile.machineCasingLv2.name=§e二级机器外壳
 tile.machineCasingLv3.name=§b三级机器外壳
 
 #燃料
-item.fuelAnthracite.name=无烟煤
-item.fuelLignite.name=褐煤
-item.fuelPeat.name=泥炭
-item.fuelCoke.name=焦炭
+item.fuel.anthracite.name=无烟煤
+item.fuel.lignite.name=褐煤
+item.fuel.peat.name=泥炭
+item.fuel.coke.name=焦炭
 
 #宝石 (包括结晶)
-item.gemCyrolite.name=冰晶石
+item.gem.cyrolite.name=冰晶石
 
 #创造模式物品栏
 itemGroup.tabItems=物品 | LanticalTech
 itemGroup.tabBlocks=方块 | LanticalTech
-
-#宝石 (包括结晶)
-item.gemCyrolite.name=冰晶石
 
 #建筑材料
 tile.ceramicTile.white.name=白色瓷砖
@@ -69,9 +68,9 @@ tile.ceramicTile.gray.name=灰色瓷砖
 tile.ceramicTile.pink.name=粉色瓷砖
 tile.ceramicTile.magenta.name=品红色瓷砖
 tile.ceramicTile.purple.name=紫色瓷砖
-tile.ceramicTile.silver.name=浅灰色瓷砖
+tile.ceramicTile.lightgray.name=浅灰色瓷砖
 tile.ceramicTile.orange.name=橘色瓷砖
-tile.ceramicTile.lightBlue.name=淡蓝色瓷砖
+tile.ceramicTile.lightblue.name=淡蓝色瓷砖
 tile.ceramicTile.lime.name=黄绿色瓷砖
 tile.ceramicTile.cyan.name=青色瓷砖
 tile.ceramicTile.brown.name=棕色瓷砖

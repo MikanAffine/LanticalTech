@@ -1,7 +1,7 @@
 package com.github.nyasroryo.lanticaltech.loader;
 
 import com.github.nyasroryo.lanticaltech.common.block.buildmaterial.CeramicTile;
-import com.github.nyasroryo.lanticaltech.packedconsts.*;
+import com.github.nyasroryo.lanticaltech.packedconsts.BlockList;
 import net.minecraft.block.Block;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
@@ -22,17 +22,16 @@ public class BlockLoader extends BlockList {
     }
   }
 
-
   @SideOnly(Side.CLIENT)
   public static void SetBlockModel() {
     for (int number = 0; number < BlockObject[0].length; number++) {
       ModelLoader.setCustomModelResourceLocation((Item) BlockObject[1][number], 0, new ModelResourceLocation(((Item) BlockObject[1][number]).getRegistryName(), "inventory"));
     }
 
-    for (int i = 0; i < 16; i++) {
+    for (int i = 0; i < Colors.length; i++) {
       ModelLoader.setCustomModelResourceLocation(
           CeramicTile.THIS_ITEMBLOCK, i, new ModelResourceLocation(
-              "lanticaltech:" +"ceramictile" + Colors[i],"inventory"));
+              "lanticaltech:" + "ceramictile" + Colors[i],"inventory"));
     }
   }
 

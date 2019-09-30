@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "lanticaltech:items/ingottin"
+    "layer0": "lanticaltech:items/ingot/tin"
   }
 }

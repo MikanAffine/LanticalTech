@@ -20,8 +20,7 @@ public class LanticalTech {
   @Deprecated //Not update a long time, until I remember it.
   public static final String MODID = "lanticaltech";
   public static final String NAME = "LanticalTech";
-  public static final String VERSION = "0.28.1";
-  // 0 mean Beta. 28 mean version. 1 mean build number
+  public static final String VERSION = "0.30.17";
   public static final String MCVERSION = "1.12.2";
 
   @Instance(MODID)

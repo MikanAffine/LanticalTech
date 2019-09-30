@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "lanticaltech:items/platealuminium"
+    "layer0": "lanticaltech:items/plate/aluminium"
   }
 }

@@ -34,6 +34,11 @@ public class OreBauxite extends BlockBase {
   }
 
   @Override
+  public int damageDropped(IBlockState state) {
+    return 9;
+  }
+
+  @Override
   public int quantityDropped(Random random) {
     return (int) DATA_SPECIAL_ORE[1];
   }

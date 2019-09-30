@@ -2,11 +2,10 @@
     {
         "modid": "lanticaltech",
         "name": "LanticalTech",
-        "description": "由NyasRoryo开发的一个科技向模组，仍在Beta中
-            \n A tech mod created by NyasRoryo, now in Beta",
-        "version": "0.28.1",
+        "description": "由杨叶开发的科技向模组，仍在Beta中\nA tech mod created by NyasRoryo, now in Beta",
+        "version": "0.30.17",
         "mcversion": "1.12.2",
-        "url": "http://lantical.sxl.cn",
+        "url": "https://github.com/NyasRoryo/LanticalTech",
         "authorList": ["NyasRoryo(杨叶)"],
         "credits": "The Great MCP and FML team, TheNameless",
         "logoFile": "logo.png",

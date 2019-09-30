@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "lanticaltech:items/platebronze"
+    "layer0": "lanticaltech:items/plate/bronze"
   }
 }

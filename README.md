@@ -6,7 +6,7 @@
 
 *不过，这也说明了下载的就能用，好消息！*
 
-最新版本 **0.29.3**
+最新版本 **0.30.17**
 
 *//Major.Minor.BuildStamp*
 
@@ -32,7 +32,7 @@
 **Author is Chinese, so I don't need zh_cn.lang, xD**
 **But if you have localization files in French and German, please start PR, THANKS!**
 
-Lastest Version: **0.29.3**
+Lastest Version: **0.30.17**
 
 *//Major.Minor.BuildStamp*
 

@@ -34,6 +34,11 @@ public class OreSalt extends BlockBase {
   }
 
   @Override
+  public int damageDropped(IBlockState state) {
+    return 10;
+  }
+
+  @Override
   public int quantityDropped(Random random) {
     return (int) DATA_SPECIAL_ORE[1];
   }

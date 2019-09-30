@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "lanticaltech:items/ingotbronze"
+    "layer0": "lanticaltech:items/ingot/bronze"
   }
 }

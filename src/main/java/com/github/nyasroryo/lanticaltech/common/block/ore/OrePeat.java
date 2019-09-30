@@ -39,6 +39,11 @@ public class OrePeat extends BlockBase {
   }
 
   @Override
+  public int damageDropped(IBlockState state) {
+    return 2;
+  }
+
+  @Override
   public int getExpDrop(IBlockState state, IBlockAccess world, BlockPos pos, int fortune) {
     return (int) DATA_SPECIAL_ORE[2];
   }

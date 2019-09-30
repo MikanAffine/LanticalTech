@@ -1,5 +1,6 @@
 package com.github.nyasroryo.lanticaltech.loader;
 
+import com.github.nyasroryo.lanticaltech.common.item.*;
 import com.github.nyasroryo.lanticaltech.packedconsts.ItemList;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraftforge.client.model.ModelLoader;
@@ -21,5 +22,37 @@ public class ItemLoader extends ItemList {
     for (int number = 0; number < ItemObject.length; number++) {
         ModelLoader.setCustomModelResourceLocation(ItemObject[number], 0, new ModelResourceLocation(ItemObject[number].getRegistryName(), "inventory"));
     }
+
+    for (int i = 0; i < Dust.DUST_VARIANTS.length; i++) {
+      ModelLoader.setCustomModelResourceLocation(
+          Dust.THIS_ITEM, i, new ModelResourceLocation(
+              "lanticaltech:" +"dust" + Dust.DUST_VARIANTS[i],"inventory"));
+    }
+
+    for (int i = 0; i < Ingot.INGOT_VARIANTS.length; i++) {
+      ModelLoader.setCustomModelResourceLocation(
+          Ingot.THIS_ITEM, i, new ModelResourceLocation(
+              "lanticaltech:" +"ingot" + Ingot.INGOT_VARIANTS[i],"inventory"));
+    }
+
+    for (int i = 0; i < Plate.PLATE_VARIANTS.length; i++) {
+      ModelLoader.setCustomModelResourceLocation(
+          Plate.THIS_ITEM, i, new ModelResourceLocation(
+              "lanticaltech:" +"plate" + Plate.PLATE_VARIANTS[i],"inventory"));
+    }
+
+    for (int i = 0; i < Fuel.FUEL_VARIANTS.length; i++) {
+      ModelLoader.setCustomModelResourceLocation(
+          Fuel.THIS_ITEM, i, new ModelResourceLocation(
+              "lanticaltech:" +"fuel" + Fuel.FUEL_VARIANTS[i],"inventory"));
+    }
+
+
+    for (int i = 0; i < Gem.GEM_VARIANTS.length; i++) {
+      ModelLoader.setCustomModelResourceLocation(
+          Gem.THIS_ITEM, i, new ModelResourceLocation(
+              "lanticaltech:" +"gem" + Gem.GEM_VARIANTS[i],"inventory"));
+    }
+
   }
 }
