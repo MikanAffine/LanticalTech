@@ -8,7 +8,7 @@ import net.minecraft.item.ItemBlock;
 
 public class MachineCasingLv1 extends BlockBase {
 
-  private static final String NAME = "MachineCasingLv1";
+  public static final String NAME = "MachineCasingLv1";
   private static final Object[] DATA = BlockData.blockBaseData.get(NAME);
   public static final Block THIS_BLOCK = new MachineCasingLv1();
   public static final Item THIS_ITEMBLOCK = new ItemBlock(THIS_BLOCK).setRegistryName(NAME);

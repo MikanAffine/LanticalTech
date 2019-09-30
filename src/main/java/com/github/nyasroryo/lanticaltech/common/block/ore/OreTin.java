@@ -17,7 +17,7 @@ import java.util.Random;
 
 public class OreTin extends BlockBase {
 
-  private static final String NAME = "OreTin";
+  public static final String NAME = "OreTin";
   private static final Object[] DATA = BlockData.blockBaseData.get(NAME);
   public static final Block THIS_BLOCK = new OreTin();
   public static final Item THIS_ITEMBLOCK = new ItemBlock(THIS_BLOCK).setRegistryName(NAME);

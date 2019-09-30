@@ -17,7 +17,7 @@ import java.util.Random;
 
 public class OreAnthracite extends BlockBase {
 
-  private static final String NAME = "OreAnthracite";
+  public static final String NAME = "OreAnthracite";
   private static final Object[] DATA = BlockData.blockBaseData.get(NAME);
   private static final Object[] DATA_SPECIAL_ORE = BlockData.oreSpecial.get(NAME);
   public static final Block THIS_BLOCK = new OreAnthracite();

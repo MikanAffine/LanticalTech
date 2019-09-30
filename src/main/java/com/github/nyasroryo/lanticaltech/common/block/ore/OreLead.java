@@ -17,7 +17,7 @@ import java.util.Random;
 
 public class OreLead extends BlockBase {
 
-  private static final String NAME = "OreLead";
+  public static final String NAME = "OreLead";
   private static final Object[] DATA = BlockData.blockBaseData.get(NAME);
   public static final Block THIS_BLOCK = new OreLead();
   public static final Item THIS_ITEMBLOCK = new ItemBlock(THIS_BLOCK).setRegistryName(NAME);

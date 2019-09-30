@@ -14,6 +14,7 @@ item.plate.bronze.name=Bronze Plate
 item.plate.lead.name=Lead Plate
 item.plate.aluminium.name=Aluminium Plate
 item.plate.iron.name=Iron Plate
+item.plate.gold.name=Gold Plate
 
 #Dust (maybe 'powder' is better...)
 item.dust.steel.name=Steel Powder

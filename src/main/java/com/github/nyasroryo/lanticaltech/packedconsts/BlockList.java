@@ -54,4 +54,21 @@ public abstract class BlockList {
 
   };
 
+
+  public static final String[] BlockNames = {
+          OreCopper.NAME,
+          OreTin.NAME,
+          OreLead.NAME,
+          OreBauxite.NAME,
+          OreCyrolite.NAME,
+          OreSalt.NAME,
+          OreAnthracite.NAME,
+          OreLignite.NAME,
+          OrePeat.NAME,
+          MachineCasingLv1.NAME,
+          MachineCasingLv2.NAME,
+          MachineCasingLv3.NAME,
+          CeramicTile.NAME,
+  };
+
 }

@@ -17,7 +17,7 @@ import java.util.Random;
 
 public class OreCyrolite extends BlockBase {
 
-  private static final String NAME = "OreCyrolite";
+  public static final String NAME = "OreCyrolite";
   private static final Object[] DATA = BlockData.blockBaseData.get(NAME);
   private static final Object[] DATA_SPECIAL_ORE = BlockData.oreSpecial.get(NAME);
   public static final Block THIS_BLOCK = new OreCyrolite();

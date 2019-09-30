@@ -18,7 +18,7 @@ import static com.github.nyasroryo.lanticaltech.packedconsts.OtherConsts.Colors;
 public class CeramicTile extends BlockBase {
 
   public static final PropertyInteger COLOR = PropertyInteger.create("color", 0, 15);
-  private static final String NAME = "CeramicTile";
+  public static final String NAME = "CeramicTile";
   public static final Block THIS_BLOCK = new CeramicTile();
   public static final Item THIS_ITEMBLOCK = new ItemMultiTexture(THIS_BLOCK, THIS_BLOCK, input -> (Colors[input.getItemDamage()])).setRegistryName(NAME).setHasSubtypes(true);
 

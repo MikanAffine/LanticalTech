@@ -17,7 +17,7 @@ import java.util.Random;
 
 public class OreLignite extends BlockBase {
 
-  private static final String NAME = "OreLignite";
+  public static final String NAME = "OreLignite";
   private static final Object[] DATA = BlockData.blockBaseData.get(NAME);
   private static final Object[] DATA_SPECIAL_ORE = BlockData.oreSpecial.get(NAME);
   public static final Block THIS_BLOCK = new OreLignite();
