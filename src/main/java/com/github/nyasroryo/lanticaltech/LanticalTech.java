@@ -16,9 +16,12 @@ import org.apache.logging.log4j.Logger;
  */
 @Mod(modid = LanticalTech.MODID, name = LanticalTech.NAME, version = LanticalTech.VERSION, acceptedMinecraftVersions = LanticalTech.MCVERSION)
 public class LanticalTech {
+
+  @Deprecated //Not update a long time, until I remember it.
   public static final String MODID = "lanticaltech";
   public static final String NAME = "LanticalTech";
-  public static final String VERSION = "Beta 1.2.5 build 9";
+  public static final String VERSION = "0.28.1";
+  // 0 mean Beta. 28 mean version. 1 mean build number
   public static final String MCVERSION = "1.12.2";
 
   @Instance(MODID)

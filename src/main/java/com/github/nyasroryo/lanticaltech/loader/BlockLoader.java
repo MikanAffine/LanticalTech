@@ -1,7 +1,7 @@
 package com.github.nyasroryo.lanticaltech.loader;
 
 import com.github.nyasroryo.lanticaltech.common.block.buildmaterial.CeramicTile;
-import com.github.nyasroryo.lanticaltech.packedconsts.BlockList;
+import com.github.nyasroryo.lanticaltech.packedconsts.*;
 import net.minecraft.block.Block;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
@@ -10,6 +10,8 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.registry.ForgeRegistries;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import static com.github.nyasroryo.lanticaltech.packedconsts.OtherConsts.Colors;
 
 public class BlockLoader extends BlockList {
 
@@ -28,7 +30,9 @@ public class BlockLoader extends BlockList {
     }
 
     for (int i = 0; i < 16; i++) {
-      ModelLoader.setCustomModelResourceLocation(CeramicTile.THIS_ITEMBLOCK, i, new ModelResourceLocation("ceramictile","inventory"));
+      ModelLoader.setCustomModelResourceLocation(
+          CeramicTile.THIS_ITEMBLOCK, i, new ModelResourceLocation(
+              "lanticaltech:" +"ceramictile" + Colors[i],"inventory"));
     }
   }
 

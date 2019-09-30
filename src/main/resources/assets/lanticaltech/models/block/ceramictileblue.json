@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "lanticaltech:blocks/ceramictile/blue",
+    "up": "lanticaltech:blocks/ceramictile/blue",
+    "north": "lanticaltech:blocks/ceramictile/blue",
+    "east": "lanticaltech:blocks/ceramictile/blue",
+    "south": "lanticaltech:blocks/ceramictile/blue",
+    "west": "lanticaltech:blocks/ceramictile/blue",
+    "particle": "lanticaltech:blocks/ceramictile/blue"
+  }
+}

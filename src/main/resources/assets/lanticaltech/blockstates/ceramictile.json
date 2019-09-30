@@ -1,8 +1,23 @@
 {
-  "forge_marker": 1
-  "variants": {
-    "normal": {
-      "model": "lanticaltech:ceramictilered"
-    }
-  }
+    "forge_marker": 1,
+    "variants": {
+	    "color":{
+            0: { "model": "lanticaltech:ceramictilewhite" },
+            1: { "model":  "lanticaltech:ceramictileorange" },
+            2: { "model":  "lanticaltech:ceramictilemagenta" },
+            3: { "model":  "lanticaltech:ceramictilelightblue" },
+            4: { "model":  "lanticaltech:ceramictileyellow" },
+            5: { "model":  "lanticaltech:ceramictilelime" },
+            6: { "model":  "lanticaltech:ceramictilepink" },
+            7: { "model":  "lanticaltech:ceramictilegray" },
+            8: { "model":  "lanticaltech:ceramictilelightgray" },
+            9: { "model":  "lanticaltech:ceramictilecyan" },
+            10: { "model":  "lanticaltech:ceramictilepurple" },
+            11: { "model":  "lanticaltech:ceramictileblue" },
+            12: { "model":  "lanticaltech:ceramictilebrown" },
+            13: { "model":  "lanticaltech:ceramictilegreen" },
+            14: { "model":  "lanticaltech:ceramictilered" },
+            15: { "model":  "lanticaltech:ceramictileblack" }
+        }
+	}
 }

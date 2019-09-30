@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "lanticaltech:blocks/ceramictile/magenta",
+    "up": "lanticaltech:blocks/ceramictile/magenta",
+    "north": "lanticaltech:blocks/ceramictile/magenta",
+    "east": "lanticaltech:blocks/ceramictile/magenta",
+    "south": "lanticaltech:blocks/ceramictile/magenta",
+    "west": "lanticaltech:blocks/ceramictile/magenta",
+    "particle": "lanticaltech:blocks/ceramictile/magenta"
+  }
+}
