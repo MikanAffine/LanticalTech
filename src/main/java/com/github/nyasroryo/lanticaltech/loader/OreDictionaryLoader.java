@@ -1,6 +1,8 @@
 package com.github.nyasroryo.lanticaltech.loader;
 
 import com.github.nyasroryo.lanticaltech.common.block.buildmaterial.CeramicTile;
+import com.github.nyasroryo.lanticaltech.common.block.machine.MachineCasing;
+import com.github.nyasroryo.lanticaltech.common.block.ore.Ore;
 import com.github.nyasroryo.lanticaltech.common.item.*;
 import com.github.nyasroryo.lanticaltech.packedconsts.BlockList;
 import com.github.nyasroryo.lanticaltech.packedconsts.OtherConsts;
@@ -33,15 +35,18 @@ public class OreDictionaryLoader {
       OreDictionary.registerOre("gem" + toOneUpperCase(Gem.GEM_VARIANTS[i]), new ItemStack(Gem.THIS_ITEM, 1, i));
     }
 
-    //Registry Blocksst.
-    for (int i = 0; i < BlockList.BlockObject.length; i++) {
-      OreDictionary.registerOre(toOneLowerCase(BlockList.BlockNames[i]) , (Block) BlockList.BlockObject[0][i]);
+    //Registry Blocks
+
+    for (int i = 0; i < OtherConsts.Colors.length; i++) {
+      OreDictionary.registerOre("ceramicTile" + toOneUpperCase(OtherConsts.Colors[i]), new ItemStack(CeramicTile.THIS_BLOCK, 1, i));
     }
 
-    for (int i = 1; i < OtherConsts.Colors.length; i++) {
-      OreDictionary.registerOre("ceramicTile" , new ItemStack(CeramicTile.THIS_BLOCK, 1, i));
-      OreDictionary.registerOre("ceramicTile" + OtherConsts.Colors[0] , new ItemStack(CeramicTile.THIS_BLOCK, 1, 0));
-      OreDictionary.registerOre("ceramicTile" + OtherConsts.Colors[i] , new ItemStack(CeramicTile.THIS_BLOCK, 1, i));
+    for (int i = 0; i < MachineCasing.MachineLevels.length; i++) {
+      OreDictionary.registerOre("machineCasing" + toOneUpperCase(MachineCasing.MachineLevels[i]), new ItemStack(MachineCasing.THIS_BLOCK, 1, i));
+    }
+
+    for (int i = 0; i < Ore.ORE_VARIANT.length; i++) {
+      OreDictionary.registerOre("ore" + toOneUpperCase(Ore.ORE_VARIANT[i]), new ItemStack(Ore.THIS_BLOCK, 1, i));
     }
 
   }

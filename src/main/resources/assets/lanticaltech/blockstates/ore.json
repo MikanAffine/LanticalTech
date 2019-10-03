@@ -1,0 +1,15 @@
+{
+    "forge_marker": 1,
+    "variants": {
+	    "orevariant":{
+            0: { "model": "lanticaltech:orecopper" },
+            1: { "model":  "lanticaltech:oretin" },
+            2: { "model":  "lanticaltech:orelead" },
+            3: { "model":  "lanticaltech:orebauxite" },
+            4: { "model":  "lanticaltech:orecyrolite" },
+            5: { "model":  "lanticaltech:oreanthracite" },
+            6: { "model":  "lanticaltech:orelignite" },
+            7: { "model":  "lanticaltech:orepeat" }
+        }
+	}
+}

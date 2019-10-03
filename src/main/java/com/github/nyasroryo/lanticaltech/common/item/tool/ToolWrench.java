@@ -54,7 +54,7 @@ public class ToolWrench extends ToolBase {
 
   @Override
   public int getHarvestLevel(ItemStack stack, String toolClass, @Nullable EntityPlayer player, @Nullable IBlockState blockState) {
-    return 1;
+    return 2;
   }
 
 

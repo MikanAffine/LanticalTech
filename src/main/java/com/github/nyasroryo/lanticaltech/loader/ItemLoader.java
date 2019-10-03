@@ -12,15 +12,15 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 public class ItemLoader extends ItemList {
 
   public static void ItemReg(FMLPreInitializationEvent event) {
-    for (int number = 0; number < ItemObject.length; number++) {
-        ForgeRegistries.ITEMS.register(ItemObject[number]);
+    for (net.minecraft.item.Item item : ItemObject) {
+      ForgeRegistries.ITEMS.register(item);
     }
   }
 
   @SideOnly(Side.CLIENT)
   public static void SetItemModel() {
-    for (int number = 0; number < ItemObject.length; number++) {
-        ModelLoader.setCustomModelResourceLocation(ItemObject[number], 0, new ModelResourceLocation(ItemObject[number].getRegistryName(), "inventory"));
+    for (net.minecraft.item.Item item : ItemObject) {
+      ModelLoader.setCustomModelResourceLocation(item, 0, new ModelResourceLocation(item.getRegistryName(), "inventory"));
     }
 
     for (int i = 0; i < Dust.DUST_VARIANTS.length; i++) {

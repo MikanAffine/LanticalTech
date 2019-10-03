@@ -18,9 +18,9 @@ import net.minecraft.world.World;
 import javax.annotation.Nullable;
 import java.util.Objects;
 
-import static com.github.nyasroryo.lanticaltech.packedconsts.OtherConsts.MachineLevels;
-
 public class MachineCasing extends BlockBase {
+
+  public static final String[] MachineLevels = {"Lv1", "Lv2", "Lv3"};
 
   public static final PropertyInteger LEVEL = PropertyInteger.create("level", 0, 2);
   public static final String NAME = "MachineCasing";
@@ -63,32 +63,26 @@ public class MachineCasing extends BlockBase {
   }
 
   @Override
-  public float getBlockHardness(IBlockState blockState, World worldIn, BlockPos pos) {
-    switch (getMetaFromState(blockState)){
-      case 0:
-        return 3.0F;
-      case 1:
-        return 5.0F;
-      case 2:
-        return 2.5F;
-      default:
-        return 0F;
-    }
+  public float getBlockHardness(IBlockState state, World world, BlockPos pos) {
+    float[] hardness = new float[]{
+        3.0F,
+        5.0F,
+        2.5F,
+
+    };
+    return hardness[getMetaFromState(state)];
 
   }
 
   @Override
   public float getExplosionResistance(World world, BlockPos pos, @Nullable Entity exploder, Explosion explosion) {
-    switch (getMetaFromState(world.getBlockState(pos))){
-      case 0:
-        return 22.0F;
-      case 1:
-        return 37.0F;
-      case 2:
-        return 16.0F;
-      default:
-        return 0F;
-    }
+    float[] hardness = new float[]{
+        22.0F,
+        37.0F,
+        16.0F,
+
+    };
+    return hardness[getMetaFromState(world.getBlockState(pos))];
   }
 
   @Override

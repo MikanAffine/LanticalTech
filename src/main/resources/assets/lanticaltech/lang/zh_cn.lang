@@ -30,15 +30,15 @@ item.dust.bauxite.name=一小块铝土矿
 item.dust.salt.name=盐
 
 #矿石
-tile.oreCopper.name=黄铜矿
-tile.oreTin.name=锡石矿
-tile.oreLead.name=方铅矿
-tile.oreBauxite.name=铝土矿
-tile.oreCyrolite.name=冰晶石
-tile.oreSalt.name=盐矿
-tile.oreAnthracite.name=无烟煤矿
-tile.oreLignite.name=褐煤矿
-tile.orePeat.name=一大堆泥炭
+tile.ore.copper.name=黄铜矿
+tile.ore.tin.name=锡石矿
+tile.ore.lead.name=方铅矿
+tile.ore.bauxite.name=铝土矿
+tile.ore.cyrolite.name=冰晶石
+tile.ore.salt.name=盐矿
+tile.ore.anthracite.name=无烟煤矿
+tile.ore.lignite.name=褐煤矿
+tile.ore.peat.name=一大堆泥炭
 
 #机器
 tile.machineCasing.Lv1.name=一级机器外壳

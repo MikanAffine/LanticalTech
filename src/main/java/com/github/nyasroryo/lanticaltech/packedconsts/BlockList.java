@@ -14,15 +14,7 @@ public abstract class BlockList {
       //方块对象
       {
           //矿石
-          OreCopper.THIS_BLOCK,
-          OreTin.THIS_BLOCK,
-          OreLead.THIS_BLOCK,
-          OreBauxite.THIS_BLOCK,
-          OreCyrolite.THIS_BLOCK,
-          OreSalt.THIS_BLOCK,
-          OreAnthracite.THIS_BLOCK,
-          OreLignite.THIS_BLOCK,
-          OrePeat.THIS_BLOCK,
+          Ore.THIS_BLOCK,
 
           //机器
           MachineCasing.THIS_BLOCK,
@@ -34,15 +26,7 @@ public abstract class BlockList {
       //方块对应物品对象
       {
           //矿石
-          OreCopper.THIS_ITEMBLOCK,
-          OreTin.THIS_ITEMBLOCK,
-          OreLead.THIS_ITEMBLOCK,
-          OreBauxite.THIS_ITEMBLOCK,
-          OreCyrolite.THIS_ITEMBLOCK,
-          OreSalt.THIS_ITEMBLOCK,
-          OreAnthracite.THIS_ITEMBLOCK,
-          OreLignite.THIS_ITEMBLOCK,
-          OrePeat.THIS_ITEMBLOCK,
+          Ore.THIS_ITEMBLOCK,
 
           //机器
           MachineCasing.THIS_ITEMBLOCK,
@@ -56,15 +40,8 @@ public abstract class BlockList {
 
 
   public static final String[] BlockNames = {
-          OreCopper.NAME,
-          OreTin.NAME,
-          OreLead.NAME,
-          OreBauxite.NAME,
-          OreCyrolite.NAME,
-          OreSalt.NAME,
-          OreAnthracite.NAME,
-          OreLignite.NAME,
-          OrePeat.NAME,
+          Ore.NAME,
+          MachineCasing.NAME,
           CeramicTile.NAME,
   };
 
