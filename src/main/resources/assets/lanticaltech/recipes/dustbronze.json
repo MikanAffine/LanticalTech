@@ -1,15 +1,15 @@
 {
-    "type": "forge:ore_shapeless",
-    "group": "lanticaltech:recipe",
-    "result": {
-	    "item": "lanticaltech:dust",
-		"data": 3,
-		"count": 4
-	},
-    "ingredients": [
-        { "type": "forge:ore_dict", "ore": "dustTin" },
-        { "type": "forge:ore_dict", "ore": "dustCopper" },
-        { "type": "forge:ore_dict", "ore": "dustCopper" },
-        { "type": "forge:ore_dict", "ore": "dustCopper" }
-    ]
+  "type": "forge:ore_shapeless",
+  "group": "lanticaltech:recipe_dust",
+  "result": {
+    "item": "lanticaltech:dust",
+    "data": 3,
+    "count": 4
+  },
+  "ingredients": [
+    { "type": "forge:ore_dict", "ore": "dustTin" },
+    { "type": "forge:ore_dict", "ore": "dustCopper" },
+    { "type": "forge:ore_dict", "ore": "dustCopper" },
+    { "type": "forge:ore_dict", "ore": "dustCopper" }
+  ]
 }

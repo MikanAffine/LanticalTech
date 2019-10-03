@@ -1,6 +1,7 @@
 package com.github.nyasroryo.lanticaltech.loader;
 
 import com.github.nyasroryo.lanticaltech.common.block.buildmaterial.CeramicTile;
+import com.github.nyasroryo.lanticaltech.common.block.machine.MachineCasing;
 import com.github.nyasroryo.lanticaltech.packedconsts.BlockList;
 import net.minecraft.block.Block;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
@@ -12,6 +13,7 @@ import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
 import static com.github.nyasroryo.lanticaltech.packedconsts.OtherConsts.Colors;
+import static com.github.nyasroryo.lanticaltech.packedconsts.OtherConsts.MachineLevels;
 
 public class BlockLoader extends BlockList {
 
@@ -32,6 +34,12 @@ public class BlockLoader extends BlockList {
       ModelLoader.setCustomModelResourceLocation(
           CeramicTile.THIS_ITEMBLOCK, i, new ModelResourceLocation(
               "lanticaltech:" + "ceramictile" + Colors[i],"inventory"));
+    }
+
+    for (int i = 0; i < MachineLevels.length; i++) {
+      ModelLoader.setCustomModelResourceLocation(
+          MachineCasing.THIS_ITEMBLOCK, i, new ModelResourceLocation(
+              "lanticaltech:" + "machinecasing" + MachineLevels[i],"inventory"));
     }
   }
 

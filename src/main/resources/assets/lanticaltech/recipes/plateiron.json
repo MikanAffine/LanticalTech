@@ -1,0 +1,13 @@
+{
+  "type": "forge:ore_shapeless",
+  "group": "lanticaltech:recipe_plate",
+  "result": {
+    "item": "lanticaltech:plate",
+    "data": 6,
+    "count": 1
+  },
+  "ingredients": [
+    { "item": "lanticaltech:toolHammer", "data": 32767 },
+    { "item": "minecraft:iron_ingot" }
+  ]
+}

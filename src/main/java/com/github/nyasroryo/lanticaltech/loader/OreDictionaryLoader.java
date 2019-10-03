@@ -18,19 +18,19 @@ public class OreDictionaryLoader {
     }
 
     for (int i = 0; i < Ingot.INGOT_VARIANTS.length; i++) {
-      OreDictionary.registerOre("ingot" + toOneUpperCase(Ingot.INGOT_VARIANTS[i]), new ItemStack(Dust.THIS_ITEM, 1, i));
+      OreDictionary.registerOre("ingot" + toOneUpperCase(Ingot.INGOT_VARIANTS[i]), new ItemStack(Ingot.THIS_ITEM, 1, i));
     }
 
     for (int i = 0; i < Plate.PLATE_VARIANTS.length; i++) {
-      OreDictionary.registerOre("plate" + toOneUpperCase(Plate.PLATE_VARIANTS[i]), new ItemStack(Dust.THIS_ITEM, 1, i));
+      OreDictionary.registerOre("plate" + toOneUpperCase(Plate.PLATE_VARIANTS[i]), new ItemStack(Plate.THIS_ITEM, 1, i));
     }
 
     for (int i = 0; i < Fuel.FUEL_VARIANTS.length; i++) {
-      OreDictionary.registerOre("fuel" + toOneUpperCase(Fuel.FUEL_VARIANTS[i]), new ItemStack(Dust.THIS_ITEM, 1, i));
+      OreDictionary.registerOre("fuel" + toOneUpperCase(Fuel.FUEL_VARIANTS[i]), new ItemStack(Fuel.THIS_ITEM, 1, i));
     }
 
     for (int i = 0; i < Gem.GEM_VARIANTS.length; i++) {
-      OreDictionary.registerOre("gem" + toOneUpperCase(Gem.GEM_VARIANTS[i]), new ItemStack(Dust.THIS_ITEM, 1, i));
+      OreDictionary.registerOre("gem" + toOneUpperCase(Gem.GEM_VARIANTS[i]), new ItemStack(Gem.THIS_ITEM, 1, i));
     }
 
     //Registry Blocksst.

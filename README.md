@@ -6,7 +6,7 @@
 
 *不过，这也说明了下载的就能用，好消息！*
 
-最新版本 **0.30.17**
+最新版本 **0.31.22**
 
 *//Major.Minor.BuildStamp*
 
@@ -20,8 +20,6 @@
 
 添加基础的机器(非能源的)
 
-添加工具
-
 添加粉末、薄板、宝石
 
 -------------------------------------------------------------------
@@ -32,7 +30,7 @@
 **Author is Chinese, so I don't need zh_cn.lang, xD**
 **But if you have localization files in French and German, please start PR, THANKS!**
 
-Lastest Version: **0.30.17**
+Lastest Version: **0.31.22**
 
 *//Major.Minor.BuildStamp*
 

@@ -115,33 +115,17 @@ public abstract class BlockData {
       });
 
       //Machines
-      put("MachineCasingLv1", new Object[]{
-          "machineCasingLv1",
+      put("MachineCasing", new Object[]{
+          "machineCasing",
           Material.IRON,
           SoundType.METAL,
           3.0f,
-          16.0f,
-          "pickaxe",
+          20.0f,
+          "wrench",
           1,
       });
-      put("MachineCasingLv2", new Object[]{
-          "machineCasingLv2",
-          Material.IRON,
-          SoundType.METAL,
-          5.0f,
-          28.0f,
-          "pickaxe",
-          2,
-      });
-      put("MachineCasingLv3", new Object[]{
-          "machineCasingLv3",
-          Material.IRON,
-          SoundType.METAL,
-          2.5f,
-          18.0f,
-          "pickaxe",
-          2,
-      });
+
+      //Build Materials
       put("CeramicTile", new Object[]{
           "ceramicTile",
           Material.ROCK,

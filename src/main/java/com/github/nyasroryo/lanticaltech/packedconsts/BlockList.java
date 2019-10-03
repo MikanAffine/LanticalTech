@@ -3,6 +3,10 @@ package com.github.nyasroryo.lanticaltech.packedconsts;
 import com.github.nyasroryo.lanticaltech.common.block.buildmaterial.*;
 import com.github.nyasroryo.lanticaltech.common.block.machine.*;
 import com.github.nyasroryo.lanticaltech.common.block.ore.*;
+import com.google.common.collect.Sets;
+import net.minecraft.block.Block;
+
+import java.util.HashSet;
 
 public abstract class BlockList {
 
@@ -21,9 +25,7 @@ public abstract class BlockList {
           OrePeat.THIS_BLOCK,
 
           //机器
-          MachineCasingLv1.THIS_BLOCK,
-          MachineCasingLv2.THIS_BLOCK,
-          MachineCasingLv3.THIS_BLOCK,
+          MachineCasing.THIS_BLOCK,
 
           //建筑材料
           CeramicTile.THIS_BLOCK,
@@ -43,9 +45,7 @@ public abstract class BlockList {
           OrePeat.THIS_ITEMBLOCK,
 
           //机器
-          MachineCasingLv1.THIS_ITEMBLOCK,
-          MachineCasingLv2.THIS_ITEMBLOCK,
-          MachineCasingLv3.THIS_ITEMBLOCK,
+          MachineCasing.THIS_ITEMBLOCK,
 
           //建筑材料
           CeramicTile.THIS_ITEMBLOCK,
@@ -65,10 +65,10 @@ public abstract class BlockList {
           OreAnthracite.NAME,
           OreLignite.NAME,
           OrePeat.NAME,
-          MachineCasingLv1.NAME,
-          MachineCasingLv2.NAME,
-          MachineCasingLv3.NAME,
           CeramicTile.NAME,
   };
 
+  public static final HashSet<Block> MachineSet = Sets.newHashSet(
+      MachineCasing.THIS_BLOCK
+  );
 }

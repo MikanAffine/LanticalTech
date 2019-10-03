@@ -1,0 +1,10 @@
+{
+    "forge_marker": 1,
+    "variants": {
+	    "level":{
+            0: { "model": "lanticaltech:machinecasinglv1" },
+            1: { "model":  "lanticaltech:machinecasinglv2" },
+            2: { "model":  "lanticaltech:machinecasinglv3" }
+        }
+	}
+}

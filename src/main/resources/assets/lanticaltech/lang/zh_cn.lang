@@ -14,7 +14,7 @@ item.plate.bronze.name=青铜板
 item.plate.lead.name=铅板
 item.plate.aluminium.name=铝板
 item.plate.iron.name=铁板
-item.plate.gold.name=铁板
+item.plate.gold.name=金板
 
 #粉
 item.dust.steel.name=钢粉
@@ -41,9 +41,13 @@ tile.oreLignite.name=褐煤矿
 tile.orePeat.name=一大堆泥炭
 
 #机器
-tile.machineCasingLv1.name=一级机器外壳
-tile.machineCasingLv2.name=§e二级机器外壳
-tile.machineCasingLv3.name=§b三级机器外壳
+tile.machineCasing.Lv1.name=一级机器外壳
+tile.machineCasing.Lv2.name=§e二级机器外壳
+tile.machineCasing.Lv3.name=§b三级机器外壳
+
+#工具
+item.toolHammer.name=锻造锤
+item.toolWrench.name=扳手
 
 #燃料
 item.fuel.anthracite.name=无烟煤
@@ -75,3 +79,4 @@ tile.ceramicTile.lightblue.name=淡蓝色瓷砖
 tile.ceramicTile.lime.name=黄绿色瓷砖
 tile.ceramicTile.cyan.name=青色瓷砖
 tile.ceramicTile.brown.name=棕色瓷砖
+

@@ -6,12 +6,10 @@ import net.minecraft.block.properties.PropertyInteger;
 import net.minecraft.block.state.BlockStateContainer;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.item.EnumDyeColor;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemMultiTexture;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.NonNullList;
-import net.minecraft.util.text.translation.I18n;
 
 import static com.github.nyasroryo.lanticaltech.packedconsts.OtherConsts.Colors;
 
@@ -48,10 +46,6 @@ public class CeramicTile extends BlockBase {
   @Override
   public int damageDropped(IBlockState state) {
     return getMetaFromState(state);
-  }
-
-  public String getLocalizedName() {
-    return I18n.translateToLocal(this.getTranslationKey() + "." + Colors[0] + ".name");
   }
 
   @Override

@@ -16,7 +16,7 @@ item.plate.aluminium.name=Aluminium Plate
 item.plate.iron.name=Iron Plate
 item.plate.gold.name=Gold Plate
 
-#Dust (maybe 'powder' is better...)
+#Dusts
 item.dust.steel.name=Steel Powder
 item.dust.tin.name=Tin Powder
 item.dust.copper.name=Copper Powder
@@ -50,9 +50,13 @@ item.fuel.coke.name=Coke
 item.gem.cyrolite.name=Cyrolite
 
 #Machines
-tile.machineCasingLv1.name=Machine Casing Lv1
-tile.machineCasingLv2.name=§eMachine Casing Lv2
-tile.machineCasingLv3.name=§bMachine Casing Lv3
+tile.machineCasing.Lv1.name=Machine Casing Lv1
+tile.machineCasing.Lv2.name=§eMachine Casing Lv2
+tile.machineCasing.Lv3.name=§bMachine Casing Lv3
+
+#Tools
+item.toolHammer.name=Forging Hammer
+item.toolWrench.name=Wrench
 
 #Creative Tabs
 itemGroup.tabItems=Items | LanticalTech
