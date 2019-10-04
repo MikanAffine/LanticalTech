@@ -1,0 +1,14 @@
+{
+  "type": "forge:ore_shaped",
+  "group": "lanticaltech:recipe_tool",
+  "result": { "item": "lanticaltech:pickaxe", "data": 0 },
+  "pattern": [
+    "III",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "I": { "type": "forge:ore_dict", "ore": "ingotBronze" },
+    "S": { "item": "minecraft:stick" }
+  }
+}
