@@ -19,7 +19,7 @@ public class LanticalTech {
   @Deprecated //Not update a long time, until I remember it.
   public static final String MODID = "lanticaltech";
   public static final String NAME = "LanticalTech";
-  public static final String VERSION = "0.33.5";
+  public static final String VERSION = "0.34.19";
   public static final String MCVERSION = "1.12.2";
 
   @Instance(MODID)
