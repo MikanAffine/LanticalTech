@@ -10,6 +10,8 @@
             5: { "model":  "lanticaltech:oreanthracite" },
             6: { "model":  "lanticaltech:orelignite" },
             7: { "model":  "lanticaltech:orepeat" }
+            8: { "model":  "lanticaltech:oremagnetite" }
+            9: { "model":  "lanticaltech:orehematite" }
         }
 	}
 }

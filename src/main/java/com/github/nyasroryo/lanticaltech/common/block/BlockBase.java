@@ -1,7 +1,7 @@
 package com.github.nyasroryo.lanticaltech.common.block;
 
 import com.github.nyasroryo.lanticaltech.client.creativetab.CreativeTab;
-import com.github.nyasroryo.lanticaltech.packedconsts.BlockData;
+import com.github.nyasroryo.lanticaltech.common.packedconsts.BlockData;
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;

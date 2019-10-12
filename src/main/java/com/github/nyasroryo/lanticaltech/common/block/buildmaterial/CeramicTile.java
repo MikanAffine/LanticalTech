@@ -11,7 +11,7 @@ import net.minecraft.item.ItemMultiTexture;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.NonNullList;
 
-import static com.github.nyasroryo.lanticaltech.packedconsts.OtherConsts.Colors;
+import static com.github.nyasroryo.lanticaltech.common.packedconsts.OtherConsts.Colors;
 
 public class CeramicTile extends BlockBase {
 

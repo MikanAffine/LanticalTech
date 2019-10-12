@@ -16,7 +16,14 @@ public class Ingot extends ItemBase {
       "lead",
       "bronze",
       "aluminium",
-      "steel"
+      "steel",
+      "magneticIron",
+      "chromium",
+      "nickel",
+      "stainlessSteel",
+      "titanium",
+      "tungsten",
+      "iridium",
 
   };
 
@@ -27,7 +34,7 @@ public class Ingot extends ItemBase {
     setNoRepair();
   }
 
-
+  @Override
   public String getTranslationKey(ItemStack stack)
   {
     return this.getTranslationKey() + "." + INGOT_VARIANTS[stack.getMetadata()];

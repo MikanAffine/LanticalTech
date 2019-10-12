@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "lanticaltech:items/tool/axe/bronze"
+    "layer0": "lanticaltech:items/tool/hoe/bronze"
   }
 }

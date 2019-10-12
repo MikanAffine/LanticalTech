@@ -1,19 +1,18 @@
 package com.github.nyasroryo.lanticaltech.common;
 
-import com.github.nyasroryo.lanticaltech.loader.BlockLoader;
-import com.github.nyasroryo.lanticaltech.loader.ItemLoader;
-import com.github.nyasroryo.lanticaltech.loader.OreDictionaryLoader;
-import com.github.nyasroryo.lanticaltech.loader.SmeltRecipeLoader;
+import com.github.nyasroryo.lanticaltech.common.loader.*;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
 
 public class CommonProxy {
-  public void preInit(FMLPreInitializationEvent event) {
+  public void preInit(FMLPreInitializationEvent event){
+    TileEntityLoader.LoadTileEntity();
     BlockLoader.BlockReg(event);
     ItemLoader.ItemReg(event);
     OreDictionaryLoader.regOreDict();
+    WorldGeneratorLoader.LoadWorldGenerator();
     SmeltRecipeLoader.LoadSmeltRecipe();
 
   }

@@ -5,6 +5,13 @@ item.ingot.copper.name=铜锭
 item.ingot.bronze.name=青铜锭
 item.ingot.lead.name=铅锭
 item.ingot.aluminium.name=铝锭
+item.ingot.magneticIron.name=磁铁锭
+item.ingot.chromium.name=铬锭
+item.ingot.nickel.name=镍锭
+item.ingot.stainlessSteel.name=不锈钢锭
+item.ingot.titanium.name=钛锭
+item.ingot.tungsten.name=钨锭
+item.ingot.iridium.name=铱锭
 
 #板
 item.plate.steel.name=钢板
@@ -39,15 +46,32 @@ tile.ore.salt.name=盐矿
 tile.ore.anthracite.name=无烟煤矿
 tile.ore.lignite.name=褐煤矿
 tile.ore.peat.name=一大堆泥炭
+tile.ore.magnetite.name=磁铁矿
+tile.ore.hematite.name=赤铁矿
 
 #机器
-tile.machineCasing.Lv1.name=一级机器外壳
-tile.machineCasing.Lv2.name=§e二级机器外壳
-tile.machineCasing.Lv3.name=§b三级机器外壳
+tile.machineCasing.Makeshift.name=§7粗制滥造的机器外壳
+tile.machineCasing.Engineering.name=§e工程级别机器外壳
+tile.machineCasing.Industrial.name=§6工业级别机器外壳
+tile.machineCasing.Precision.name=§a精密机器外壳
+tile.machineCasing.SpaceLevel.name=§9航天级别机器外壳
+tile.machineCasing.Nano.name=§0纳米级别机器外壳
+tile.machineCasing.Peak.name=§b顶峰级别机器外壳
 
 #工具
 item.toolHammer.name=锻造锤
 item.toolWrench.name=扳手
+
+item.pickaxeBronze.name=青铜镐
+item.pickaxeSteel.name=钢镐
+item.axeBronze.name=青铜斧
+item.axeSteel.name=钢斧
+item.shovelBronze.name=青铜锹
+item.shovelSteel.name=钢锹
+item.hoeBronze.name=青铜锄
+item.hoeSteel.name=钢锄
+item.swordBronze.name=青铜剑
+item.swordSteel.name=钢剑
 
 #燃料
 item.fuel.anthracite.name=无烟煤

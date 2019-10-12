@@ -1,10 +1,10 @@
 {
   "type": "forge:ore_shaped",
-  "group": "lanticaltech:recipe_tool",
-  "result": { "item": "lanticaltech:pickaxe", "data": 0 },
+  "group": "lanticaltech:recipe_weapon",
+  "result": { "item": "lanticaltech:swordBronze"},
   "pattern": [
-    "III",
-    " S ",
+    " I ",
+    " I ",
     " S "
   ],
   "key": {

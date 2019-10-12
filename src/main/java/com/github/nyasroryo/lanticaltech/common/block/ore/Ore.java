@@ -35,6 +35,8 @@ public class Ore extends BlockBase {
       "anthracite",
       "lignite",
       "peat",
+      "magnetite",
+      "hematite",
 
   };
 
@@ -76,6 +78,8 @@ public class Ore extends BlockBase {
         Fuel.THIS_ITEM,
         Fuel.THIS_ITEM,
         Fuel.THIS_ITEM,
+        Ore.THIS_ITEMBLOCK,
+        Ore.THIS_ITEMBLOCK,
 
     };
 
@@ -93,6 +97,8 @@ public class Ore extends BlockBase {
         0,
         1,
         2,
+        8,
+        9,
 
     };
     return dropDamage[getMetaFromState(state)];
@@ -117,6 +123,8 @@ public class Ore extends BlockBase {
         2.0F,
         1.5F,
         0.6F,
+        2.5F,
+        2.5F,
 
     };
     return hardness[getMetaFromState(state)];
@@ -133,6 +141,8 @@ public class Ore extends BlockBase {
         8.0F,
         6.5F,
         2.0F,
+        10.0F,
+        10.0F,
 
     };
     return resistance[getMetaFromState(world.getBlockState(pos))];
@@ -165,6 +175,8 @@ public class Ore extends BlockBase {
         1,
         0,
         0,
+        1,
+        1,
 
     };
 
@@ -172,77 +184,3 @@ public class Ore extends BlockBase {
   }
 
 }
-
-/*
-      put("OreCopper", new Object[]{
-          "oreCopper",
-          Material.ROCK,
-          SoundType.STONE,
-          2.5f,
-          10.0f,
-          "pickaxe",
-          1,
-      });
-      put("OreTin", new Object[]{
-          "oreTin",
-          Material.ROCK,
-          SoundType.STONE,
-          2.5f,
-          10.0f,
-          "pickaxe",
-          1,
-      });
-      put("OreLead", new Object[]{
-          "oreLead",
-          Material.ROCK,
-          SoundType.STONE,
-          2.5f,
-          10.0f,
-          "pickaxe",
-          1,
-      });
-      put("OreBauxite", new Object[]{
-          "oreBauxite",
-          Material.ROCK,
-          SoundType.STONE,
-          2.5f,
-          10.0f,
-          "pickaxe",
-          2,
-      });
-      put("OreCyrolite", new Object[]{
-          "oreCyrolite",
-          Material.ROCK,
-          SoundType.STONE,
-          3.0f,
-          14.0f,
-          "pickaxe",
-          2,
-      });
-      put("OreAnthracite", new Object[]{
-          "oreAnthracite",
-          Material.ROCK,
-          SoundType.STONE,
-          2.0f,
-          8.0f,
-          "pickaxe",
-          1,
-      });
-      put("OreLignite", new Object[]{
-          "oreLignite",
-          Material.ROCK,
-          SoundType.STONE,
-          1.5f,
-          6.0f,
-          "pickaxe",
-          0,
-      });
-      put("OrePeat", new Object[]{
-          "orePeat",
-          Material.GROUND,
-          SoundType.GROUND,
-          0.5f,
-          2.0f,
-          "shovel",
-          0,
-      }); */

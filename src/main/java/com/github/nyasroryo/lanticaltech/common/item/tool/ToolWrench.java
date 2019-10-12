@@ -1,6 +1,7 @@
 package com.github.nyasroryo.lanticaltech.common.item.tool;
 
-import com.github.nyasroryo.lanticaltech.packedconsts.ToolMaterials;
+import com.github.nyasroryo.lanticaltech.common.item.tool.supers.ToolCustom;
+import com.github.nyasroryo.lanticaltech.common.packedconsts.ToolMaterials;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
@@ -8,9 +9,9 @@ import net.minecraft.item.ItemStack;
 
 import javax.annotation.Nullable;
 
-import static com.github.nyasroryo.lanticaltech.packedconsts.BlockList.MachineSet;
+import static com.github.nyasroryo.lanticaltech.common.packedconsts.BlockList.MachineSet;
 
-public class ToolWrench extends ToolBase {
+public class ToolWrench extends ToolCustom {
 
   public static final String MyName = "toolWrench";
   public static final Item THIS_ITEM = new ToolWrench();
@@ -27,7 +28,7 @@ public class ToolWrench extends ToolBase {
 
   @Override
   public float getDestroySpeed(ItemStack stack, IBlockState state) {
-    return (MachineSet.contains(state.getBlock())) ? 9.0F : 1.0F;
+    return (MachineSet.contains(state.getBlock())) ? 9.0F : 0.4F;
   }
 
   @Override

@@ -1,11 +1,12 @@
 package com.github.nyasroryo.lanticaltech.common.item.tool;
 
+import com.github.nyasroryo.lanticaltech.common.item.tool.supers.ToolCustom;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 
 import java.util.HashSet;
 
-public class ToolHammer extends ToolBase {
+public class ToolHammer extends ToolCustom {
 
   public static final String MyName = "toolHammer";
   public static final Item THIS_ITEM = new ToolHammer();

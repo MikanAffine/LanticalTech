@@ -3,8 +3,12 @@
     "variants": {
 	    "level":{
             0: { "model": "lanticaltech:machinecasinglv1" },
-            1: { "model":  "lanticaltech:machinecasinglv2" },
-            2: { "model":  "lanticaltech:machinecasinglv3" }
+            1: { "model": "lanticaltech:machinecasinglv2" },
+            2: { "model": "lanticaltech:machinecasinglv3" },
+            3: { "model": "lanticaltech:machinecasinglv4" },
+            4: { "model": "lanticaltech:machinecasinglv5" },
+            5: { "model": "lanticaltech:machinecasinglv6" },
+            6: { "model": "lanticaltech:machinecasinglv7" }
         }
 	}
 }

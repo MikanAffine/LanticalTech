@@ -25,7 +25,7 @@ public class Fuel extends ItemBase {
     setNoRepair();
   }
 
-
+  @Override
   public String getTranslationKey(ItemStack stack)
   {
     return this.getTranslationKey() + "." + FUEL_VARIANTS[stack.getMetadata()];

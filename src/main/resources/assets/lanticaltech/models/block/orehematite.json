@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "lanticaltech:blocks/ore/hematite",
+    "up": "lanticaltech:blocks/ore/hematite",
+    "north": "lanticaltech:blocks/ore/hematite",
+    "east": "lanticaltech:blocks/ore/hematite",
+    "south": "lanticaltech:blocks/ore/hematite",
+    "west": "lanticaltech:blocks/ore/hematite",
+    "particle": "lanticaltech:blocks/ore/hematite"
+  }
+}

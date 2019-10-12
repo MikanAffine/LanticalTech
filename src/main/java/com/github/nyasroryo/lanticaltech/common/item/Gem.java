@@ -22,7 +22,7 @@ public class Gem extends ItemBase {
     setNoRepair();
   }
 
-
+  @Override
   public String getTranslationKey(ItemStack stack)
   {
     return this.getTranslationKey() + "." + GEM_VARIANTS[stack.getMetadata()];

@@ -5,6 +5,13 @@ item.ingot.copper.name=Copper Ingot
 item.ingot.bronze.name=Bronze Ingot
 item.ingot.lead.name=Lead Ingot
 item.ingot.aluminium.name=Aluminium Ingot
+item.ingot.magneticIron.name=Magnetic Iron Ingot
+item.ingot.chromium.name=Chromium Ingot
+item.ingot.nickel.name=Nickel Ingot
+item.ingot.stainlessSteel.name=Stainless Steel Ingot
+item.ingot.titanium.name=Titanium Ingot
+item.ingot.tungsten.name=Tungsten Ingot
+item.ingot.iridium.name=Iridium Ingot
 
 #Plates
 item.plate.steel.name=Steel Plate
@@ -39,6 +46,8 @@ tile.ore.salt.name=Salt Ore
 tile.ore.anthracite.name=Anthracite Ore
 tile.ore.lignite.name=Lignite Ore
 tile.ore.peat.name=A big piece of Peat
+tile.ore.magnetite.name=Magnetite Ore
+tile.ore.hematite.name=Hematite Ore
 
 #Fuels
 item.fuel.anthracite.name=Anthracite
@@ -50,13 +59,28 @@ item.fuel.coke.name=Coke
 item.gem.cyrolite.name=Cyrolite
 
 #Machines
-tile.machineCasing.Lv1.name=Machine Casing Lv1
-tile.machineCasing.Lv2.name=§eMachine Casing Lv2
-tile.machineCasing.Lv3.name=§bMachine Casing Lv3
+tile.machineCasing.Makeshift.name=§7Makeshift Machine Casing
+tile.machineCasing.Engineering.name=§eEngineering Machine Casing
+tile.machineCasing.Industrial.name=§6Industrial Machine Casing
+tile.machineCasing.Precision.name=§aPrecision Machine Casing
+tile.machineCasing.SpaceLevel.name=§9SpaceLevel Machine Casing
+tile.machineCasing.Nano.name=§0Nano Machine Casing
+tile.machineCasing.Peak.name=§bPeak Machine Casing
 
 #Tools
 item.toolHammer.name=Forging Hammer
 item.toolWrench.name=Wrench
+
+item.pickaxeBronze.name=Bronze Pickaxe
+item.pickaxeSteel.name=Steel Pickaxe
+item.axeBronze.name=Bronze Axe
+item.axeSteel.name=Steel Axe
+item.shovelBronze.name=Bronze Shovel
+item.shovelSteel.name=Steel Shovel
+item.hoeBronze.name=Bronze Hoe
+item.hoeSteel.name=Steel Hoe
+item.swordBronze.name=Bronze Sword
+item.swordSteel.name=Steel Sword
 
 #Creative Tabs
 itemGroup.tabItems=Items | LanticalTech

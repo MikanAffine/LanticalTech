@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "lanticaltech:blocks/ore/orecopper",
-    "up": "lanticaltech:blocks/ore/orecopper",
-    "north": "lanticaltech:blocks/ore/orecopper",
-    "east": "lanticaltech:blocks/ore/orecopper",
-    "south": "lanticaltech:blocks/ore/orecopper",
-    "west": "lanticaltech:blocks/ore/orecopper",
-    "particle": "lanticaltech:blocks/ore/orecopper"
+    "down": "lanticaltech:blocks/ore/copper",
+    "up": "lanticaltech:blocks/ore/copper",
+    "north": "lanticaltech:blocks/ore/copper",
+    "east": "lanticaltech:blocks/ore/copper",
+    "south": "lanticaltech:blocks/ore/copper",
+    "west": "lanticaltech:blocks/ore/copper",
+    "particle": "lanticaltech:blocks/ore/copper"
   }
 }

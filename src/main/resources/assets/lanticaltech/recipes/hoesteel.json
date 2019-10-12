@@ -1,7 +1,7 @@
 {
   "type": "forge:ore_shaped",
   "group": "lanticaltech:recipe_tool",
-  "result": { "item": "lanticaltech:toolHoe", "data": 1 },
+  "result": { "item": "lanticaltech:hoeSteel"},
   "pattern": [
     "II ",
     " S ",

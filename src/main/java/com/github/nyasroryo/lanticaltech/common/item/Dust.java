@@ -32,7 +32,7 @@ public class Dust extends ItemBase {
     setNoRepair();
   }
 
-
+  @Override
   public String getTranslationKey(ItemStack stack)
   {
     return this.getTranslationKey() + "." + DUST_VARIANTS[stack.getMetadata()];

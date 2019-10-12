@@ -1,9 +1,9 @@
 {
   "type": "forge:ore_shaped",
   "group": "lanticaltech:recipe_tool",
-  "result": { "item": "lanticaltech:pickaxe", "data": 0 },
+  "result": { "item": "lanticaltech:shovelBronze"},
   "pattern": [
-    "III",
+    " I ",
     " S ",
     " S "
   ],

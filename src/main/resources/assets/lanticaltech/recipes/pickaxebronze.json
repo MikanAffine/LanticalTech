@@ -1,15 +1,14 @@
 {
   "type": "forge:ore_shaped",
-  "group": "lanticaltech:recipe_machine",
-  "result": { "item": "lanticaltech:machineCasing", "data": 0 },
+  "group": "lanticaltech:recipe_tool",
+  "result": { "item": "lanticaltech:pickaxeBronze"},
   "pattern": [
-    "PPP",
-    "PCP",
-    "III"
+    "III",
+    " S ",
+    " S "
   ],
   "key": {
-    "I": { "item": "minecraft:iron_ingot" },
-    "P": { "type": "forge:ore_dict", "ore": "plateIron" },
-    "C": { "item": "minecraft:chest" }
+    "I": { "type": "forge:ore_dict", "ore": "ingotBronze" },
+    "S": { "item": "minecraft:stick" }
   }
 }

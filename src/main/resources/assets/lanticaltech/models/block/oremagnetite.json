@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "lanticaltech:blocks/ore/magnetite",
+    "up": "lanticaltech:blocks/ore/magnetite",
+    "north": "lanticaltech:blocks/ore/magnetite",
+    "east": "lanticaltech:blocks/ore/magnetite",
+    "south": "lanticaltech:blocks/ore/magnetite",
+    "west": "lanticaltech:blocks/ore/magnetite",
+    "particle": "lanticaltech:blocks/ore/magnetite"
+  }
+}

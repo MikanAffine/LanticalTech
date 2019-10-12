@@ -1,7 +1,7 @@
 {
   "type": "forge:ore_shaped",
   "group": "lanticaltech:recipe_weapon",
-  "result": { "item": "lanticaltech:weaponSword", "data": 1 },
+  "result": { "item": "lanticaltech:swordSteel"},
   "pattern": [
     " I ",
     " I ",
